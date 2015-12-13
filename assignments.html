@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div id="home" class="content-wrapper" ng-controller="AssignmentsCtrl" ng-cloak>
+
+    <!-- begin: main menu -->
+    <div id="main-menu" class="main-menu">
+        <ul class="menu-wrap">
+            <li ng-repeat="item in menuItems track by $index" id="[[item.name.toLowerCase()]]">
+
+                <a href="/" ng-if="$index === 0">[[item.name]]</a>
+                <a href="/[[item.route.toLowerCase()]]" ng-if="$index > 0">[[item.name]]</a>
+
+                <ul ng-if="item.items">
+                    <li ng-repeat="subitem in item.items">
+                        <a href="" ng-click="activateSlider($index, item.name.toLowerCase(), pageId)" ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+    <!-- begin: main menu -->
+
+    <!-- begin: slide images -->
+    <div class="slider-wrapper">
+        <main-slider id="slider-[[$index]]"
+                     images="images"
+                     data="dataItems"
+                     length="images.length"
+                     index="$index"
+                     page-id="pageId"
+                     arrows-visible="true"
+                     ng-repeat="images in dataItems track by $index">
+        </main-slider>
+    </div>
+    <!-- end: slide images -->
+</div>
+
+

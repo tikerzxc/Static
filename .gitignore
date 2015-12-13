@@ -1,0 +1,12 @@
+_site/
+assets/videos
+
+#dot-file exceptions
+.*
+!.babelrc
+!.gitignore
+!.gitkeep
+!.dockerignore
+
+
+

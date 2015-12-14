@@ -1,0 +1,34 @@
+---
+  menuItems:
+    -
+      name: "Inleiding"
+    -
+      name: "Tutorials"
+    -
+      name: "Theorie"
+      items:
+        -
+          name: "Week 1: diafragma, sluitertijd en ISO"
+        -
+          name: "Week 2: De juiste belichting"
+        -
+          name: "Week 3: Beweging"
+    -
+      name: "Opdrachten"
+      items:
+        -
+          name: "Inleiding"
+        -
+          name: "1. Weinig scherptediepte"
+        -
+          name: "2. Veel scherptediepte"
+        -
+          name: "3. Lange sluitertijd"
+        -
+          name: "4. Korte sluitertijd"
+    -
+      name: "Test jezelf!"
+    -
+      name: "Links"
+    -
+      name: "Mijn foto's!"

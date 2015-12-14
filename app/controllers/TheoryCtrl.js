@@ -2,9 +2,9 @@
 
 (function () {
 	
-	TheoryCtrl.inject = ['$scope'];
+	TheoryCtrl.inject = ['$scope', 'getItems'];
 	
-	function TheoryCtrl($scope) {
+	function TheoryCtrl($scope, getItems) {
         $scope.pageId = 'Theorie';
 
 		$scope.dataItems = [
@@ -86,17 +86,6 @@
                 }
             ],
 
-
-
-
-
-
-
-
-
-
-
-
 			[
 				{
                     shortDesc : '<b>Fotograferen van bewegende onderwerpen</b>',
@@ -140,6 +129,49 @@
 
 			]
 		];
+
+
+        //getItems.fetch('/api/chapters/inleidings/list.json').then(function(data) {
+        //
+        //    return 'x';
+        //    //$scope.dataItems = data;
+        //}).then(function(data) {
+        //    console.log(data)
+        //});
+
+        getItems.fetch('/api/chapters/theorie/week1/list.json').then(function(data) {
+            $scope.dataItems = data;
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 		$scope.viewedSlides = [];
 	}

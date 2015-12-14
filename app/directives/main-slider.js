@@ -244,70 +244,7 @@
                 $window.localStorage.clear();
 
             },
-            template:'<div class="slider"><div class="slider-inner-wrap"> \
-                         <div class="slide" ng-repeat="item in images" ng-show="item.visible" > \
-                         \
-                            <div class="inner-image-wrap" ng-if="item.type !== \'inner-slides\'  && item.type !== \'inner-images-desc\'"> \
-                                <div class="text-wrap" ng-if="item.type !== \'inner-slides\' && item.shortDesc"> \
-                                    <div class="title" ng-bind-html="\'[[item.shortDesc]]\' | htmlize"></div> \
-                                    <div ng-bind-html="\'[[item.fullDesc]]\' | htmlize" class="text-standard"></div> \
-                                </div> \
-                                \
-                                <div class="img-wrap" ng-if="item.type"> \
-                                    <img ng-src="/assets/img/elem/[[item.src]]" /> \
-                                </div>\
-                            </div>\
-                            \
-                            <div class="inner-tutorials-wrap" ng-if="item.type === \'inner-slides\'"> \
-                                <div class="inner-slides-wrap"> \
-                                   <div ng-repeat="subitem in item.items" class="inner-content-wrap"> \
-                                      <span content="subitem" src="subitem.src" data="subitem" class="tutorials-short-desc short-desc">\
-                                      </span> \
-                                   </div> \
-                                   <span ng-bind-html="\'[[item.shortDesc]]\' | htmlize" class="short-desc"></span> \
-                                </div> \
-                                \
-                                <div class="video-inner-wrap" ng-hide="videoHidden"> \
-                                   \
-                                   \
-                                   <video vg-src="videoSources" preload="metadata" controls></video>\
-                                   \
-                                </div> \
-                                \
-                            </div>\
-                            \
-                            \
-                            <div class="inner-image-wrap" ng-if="item.type === \'inner-images-desc\'"> \
-                                <div class="text-wrap" ng-if="item.type !== \'inner-slides\' && item.shortDesc"> \
-                                  <div class="title" ng-bind-html="\'[[item.shortDesc]]\' | htmlize"></div> \
-                                  <div ng-bind-html="\'[[item.fullDesc]]\' | htmlize" class="text-standard"></div> \
-                                    \
-                                  <ul>\
-                                    <li ng-repeat="link in item.linkItems"> \
-                                    \
-                                    \
-                                        <span class="link-wrap" index="$index" text="link.text" ng-bind-html="\'[[link.title]]\' | htmlize"></span>\
-                                    </li>\
-                                  </ul>\
-                                </div> \
-                                \
-                                \
-                                <div class="img-wrap-desc" ng-if="wrapImgVisible"> \
-                                    <img ng-src="/assets/img/elem/[[item.src]]" /> \
-                                </div>\
-                                <div class="img-text-desc" ng-if="!wrapImgVisible"> \
-                                    <div class="theory-desc"></div> \
-                                </div>\
-                            </div> \
-                            \
-                            \
-                         </div> \
-                         <div class="arrows" ng-if="arrowsVisible"> \
-                            <a href="#" ng-click="prev(sliderIndex)" ng-class="{\'hidden\': firstSlider}" class="first"></a> \
-                                <span class="page-nums">[[currentIndex + 1]] / [[length]]</span> \
-                            <a href="#" ng-click="next(sliderIndex)" ng-class="{\'hidden\': lastSlider}" class="last"></a> \
-                         </div> \
-                      </div></div>'
+            templateUrl:'/app/directives/templates/main-slider.html'
 
         }
     };

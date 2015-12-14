@@ -222,6 +222,7 @@ body {
 
 .slider-wrapper .slider .title {
     font-size: 13px;
+    font-weight: bold;
     line-height: 17px;
     color: #000000;
 }

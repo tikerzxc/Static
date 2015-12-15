@@ -15,13 +15,13 @@
                               return $scope.dataItems;
                           })
                           .then(function(dataArr) {
-                              getData.fetchItems('/api/chapters/theorie/week1/list.json').then(function(data) {
+                              getData.fetchItems('/api/chapters/theorie/week2/list.json').then(function(data) {
                                   $scope.dataItems = getData.concatItems(dataArr, data);
                               });
                               return $scope.dataItems;
                           })
                           .then(function(dataArr) {
-                              getData.fetchItems('/api/chapters/theorie/week1/list.json').then(function(data) {
+                              getData.fetchItems('/api/chapters/theorie/week3/list.json').then(function(data) {
                                   $scope.dataItems = getData.concatItems(dataArr, data);
                               });
                           });

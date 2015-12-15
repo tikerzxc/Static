@@ -380,6 +380,19 @@ ul.inner-list li {
     list-style-type: disc;
 }
 
+ul.theory-last-list li {
+    list-style-type: disc;
+}
+
+ol.panel-list {
+    margin: -11px 0px 0px 30px;
+    padding: 0px;
+}
+
+ol.panel-list li {
+    list-style-type: decimal !important;
+}
+
 .inner-image-wrap li a {
     cursor: pointer;
 }

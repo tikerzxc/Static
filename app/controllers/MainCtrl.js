@@ -77,17 +77,9 @@
             updateMenuItems.markItems($scope.menuItems, _currLength, _currItemIndex, _currItemId);
         };
 
-
         $rootScope.$on('showTheoryDesc', function (event, data) {
             $scope.$broadcast('showTheoryText', data);
         });
-
-
-
-
-
-
-
 
         $rootScope.$on('showSlider', function (event, sliderIndex) {
             $scope.$broadcast('activateSliderContainer', sliderIndex);

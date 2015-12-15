@@ -7,7 +7,7 @@ permalink: week1
 ---
 
 De elichting van de beeldsensor wordt bepaald door de combinatie van:
-<ul class="theory-list">
+<ul class="inner-list">
     <li>de hoeveelheid licht</li>
     <li>de duur van de belichting</li>
     <li>de gevoeligheid voor het licht</li>

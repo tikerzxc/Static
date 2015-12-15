@@ -10,7 +10,7 @@ permalink: home
 Het diafragma is een opening in de lichtbaan van een lens 
 (*<u>objectief</u>*) die een bepaalde hoeveelheid licht doorlaat of 
 tegenhoudt. Deze lensopening bestaat uit metalen plaatjes 
-(*<u>lamellen</u>*) die samen een cirkel vormen.
+(*lamellen*) die samen een cirkel vormen.
 
 De grootte van de opening wordt op je camera aangegeven met 
 zogenaamde f-getallen. De grootte van de diafragmaopening kun 

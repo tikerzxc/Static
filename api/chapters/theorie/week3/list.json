@@ -2,7 +2,7 @@
 ---
 
 [
-  {% for category in site.categories['theory-week1'] %}
+  {% for category in site.categories['theory-week3'] %}
 
   {
   "shortDesc"    : {{ category.title | jsonify }},

@@ -19,6 +19,7 @@
 
                         elem.on('click', function() {
                             scope.$emit('showTheoryDesc', { text: scope.text });
+                            scope.$emit('showTheoryDesc', { text: scope.text });
 
                             angular.forEach(angular.element(document.querySelectorAll('.link-wrap a span')), function(item, index){
                                 var _currEl = angular.element(item);

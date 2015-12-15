@@ -2,14 +2,15 @@
 
 (function () {
 
-    HomeCtrl.inject = ['$scope', '$http', 'getItems'];
+    HomeCtrl.inject = ['$scope', '$http', 'getData'];
 
-    function HomeCtrl($scope, getItems) {
+    function HomeCtrl($scope, getData) {
         $scope.pageId = 'Home';
 
         $scope.viewedSlides = $scope.dataItems = [];
 
-        getItems.fetch('/api/chapters/inleidings/list.json').then(function(data) {
+        // -- Geit items
+        getData.fetchItems('/api/chapters/inleidings/list.json').then(function(data) {
             $scope.dataItems = data;
         });
 

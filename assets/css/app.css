@@ -228,9 +228,9 @@ body {
 }
 
 .slider-wrapper .slider .img-wrap, .slider-wrapper .slider .img-wrap-desc, .slider-wrapper .slider .img-text-desc  {
-     position: absolute;
-     right: 30px;
-     top: 0px;
+    position: absolute;
+    right: 30px;
+    top: 0px;
 }
 
 .slider-wrapper .slider .img-text-desc {
@@ -335,7 +335,7 @@ body {
 }
 
 .slider-wrapper .inner-tutorials-wrap .inner-slides-wrap {
-   float: left;
+    float: left;
 }
 
 .slider-inner-wrap .inner-tutorials-wrap {
@@ -380,7 +380,7 @@ ul.inner-list li {
     list-style-type: disc;
 }
 
-ul.theory-last-list li {
+ul.theory-last-list li, ul.default li {
     list-style-type: disc;
 }
 
@@ -395,6 +395,10 @@ ol.panel-list li {
 
 .inner-image-wrap li a {
     cursor: pointer;
+}
+
+.slider-wrapper .slider .title span {
+    font-weight: normal;
 }
 
 

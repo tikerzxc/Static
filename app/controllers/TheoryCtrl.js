@@ -9,7 +9,7 @@
 
         $scope.viewedSlides = $scope.dataItems = [];
 
-        // -- Geit items
+        // -- Get items
         getData.fetchItems('/api/chapters/theorie/week1/list.json').then(function(data) {
                               $scope.dataItems = getData.concatItems($scope.dataItems, data);
                               return $scope.dataItems;

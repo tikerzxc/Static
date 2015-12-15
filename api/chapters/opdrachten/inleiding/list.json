@@ -1,0 +1,15 @@
+---
+---
+
+[
+  {% for category in site.categories['inleiding'] %}
+
+  {
+  "shortDesc"    : {{ category.title | jsonify }},
+  "fullDesc"  : {{ category.content | jsonify }},
+  "type"  : {{ category.type | jsonify }},
+  "src"  : {{ category.src | jsonify }}
+  } {% unless forloop.last %},{% endunless %}
+
+  {% endfor %}
+]

@@ -62,6 +62,11 @@
                         scope.$emit('slideViewed', {id: scope.pageId, index: scope.sliderIndex});
                     }
 
+                    // -- Activate 'results' slide on 'tests' page
+                    if( (scope.$parent.pageId === 'Test') && (scope.currentIndex + 1 === scope.images.length) ) {
+                        scope.$emit('showTestsResults');
+                    }
+
                 };
 
                 // -- Show previous slider image
@@ -105,6 +110,14 @@
 
                 });
 
+                // -- Activate 'results' slide on 'tests' page
+                scope.testResults = false;
+                scope.$on('showTestPageResults', function() {
+                    $timeout(function() {
+                        scope.testResults = true;
+                    });
+                });
+
                 // -- Watch if next slider is activated
                 scope.$on('activateNextSliderImg', function(event, index) {
 
@@ -142,6 +155,7 @@
                         }
 
                     }
+
 
                 });
 

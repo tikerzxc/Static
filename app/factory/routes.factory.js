@@ -5,7 +5,6 @@ angular.module('starter')
         return {
             currRoute: null,
 
-
             getRoute: function(menuItems){
 
                 _.each(menuItems, function(item) {
@@ -47,6 +46,44 @@ angular.module('starter')
 
 
                 });
+
+            },
+            getRouteName : function(name) {
+
+                switch(name) {
+
+                    case 'inleiding':
+                        return 'home';
+                        break;
+
+                    case 'tutorials':
+                        return 'tutorials';
+                        break;
+
+                    case 'theorie':
+                        return 'theory';
+                        break;
+
+                    case 'opdrachten':
+                        return 'assignments';
+                        break;
+
+                    case 'test jezelf!':
+                        return 'test';
+                        break;
+
+                    case 'links':
+                        return 'links';
+                        break;
+
+                    case 'mijn foto\'s!':
+                        return 'photos';
+                        break;
+
+                    default:
+                        return '/';
+                        break;
+                }
 
             }
         }

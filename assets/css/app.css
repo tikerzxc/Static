@@ -372,6 +372,14 @@ body {
     margin-bottom: 3px;
 }
 
+ul.inner-list {
+    margin-top: -10px !important;
+}
+
+ul.inner-list li {
+    list-style-type: disc;
+}
+
 .inner-image-wrap li a {
     cursor: pointer;
 }

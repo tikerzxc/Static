@@ -7,7 +7,7 @@
     function HomeCtrl($scope, getItems) {
         $scope.pageId = 'Home';
 
-        $scope.viewedSlides = [];
+        $scope.viewedSlides = $scope.dataItems = [];
 
         getItems.fetch('/api/chapters/inleidings/list.json').then(function(data) {
             $scope.dataItems = data;

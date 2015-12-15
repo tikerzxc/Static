@@ -1,6 +1,6 @@
 ---
 ---
-[
+
 [
 {% for chapter in site.categories.theorie] %}
 
@@ -13,4 +13,4 @@
 
 {% endfor %}
 ]
-]
+

@@ -214,7 +214,7 @@
                 scope.videoHidden = true;
 
                 scope.videoSources = [ // -- Preload first video for 'tutorials videos' page
-                    {src: $sce.trustAsResourceUrl( "http://videogular.com/assets/videos/videogular.mp4" ), type: "video/webm"}
+                    {src: $sce.trustAsResourceUrl( "/assets/videos/IV_02_0100.mp4" ), type: "video/mp4"}
                 ];
 
                 scope.$on('changeVideo', function(event, src) {

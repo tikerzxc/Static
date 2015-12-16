@@ -13,7 +13,6 @@
         getData.fetchItems('/api/chapters/inleidings/list.json').then(function(data) {
             $scope.dataItems = data;
         });
-
     }
 
     angular.module('starter').controller('HomeCtrl', HomeCtrl);

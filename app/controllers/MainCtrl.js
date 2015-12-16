@@ -2,22 +2,25 @@
 
 (function () {
 
-    MainCtrl.inject = ['$scope', '$rootScope', '$timeout', '$window', 'updateMenuItems', 'routes'];
+    MainCtrl.inject = ['$scope', '$rootScope', '$timeout', '$window', 'updateMenuItems', 'routes', 'getData'];
 
-    function MainCtrl($scope, $rootScope, $timeout, $window, updateMenuItems, routes) {
-        $scope.slidersVisited = [];
+    function MainCtrl($scope, $rootScope, $timeout, $window, updateMenuItems, routes, getData) {
+        $scope.slidersVisited = $scope.menuData = [];
         $scope.lastMenuItem = false;
 
-        // -- Get header menu items
+        //-- Get header menu items
         $scope.menuData = [
             {
-                name : 'Inleiding'
+                name : 'Inleiding',
+                dest: 'home'
             },
             {
-                name : 'Tutorials'
+                name : 'Tutorials',
+                dest: 'tutorials'
             },
             {
                 name: 'Theorie',
+                dest: 'theory',
                 items: [
                     {name: 'Week 1: diafragma, sluitertijd en ISO'},
                     {name: 'Week 2: De juiste belichting'},
@@ -26,6 +29,7 @@
             },
             {
                 name: 'Opdrachten',
+                dest: 'assignments',
                 items: [
                     {name: 'Inleiding'},
                     {name: '1. Weinig scherptediepte'},
@@ -35,15 +39,23 @@
                 ]
             },
             {
-                name: 'Test jezelf!'
+                name: 'Test jezelf!',
+                dest: 'test'
             },
             {
-                name: 'Links'
+                name: 'Links',
+                dest: 'links'
             },
             {
-                name: 'Mijn foto\'s!'
+                name: 'Mijn foto\'s!',
+                dest: 'photos'
             }
         ];
+
+        // -- Get menu items
+        //getData.fetchItems('/menu/menu-items.json').then(function(data) {
+        //    $scope.menuData.push(data);
+        //});
 
         // -- Activate slider when clicking on submenu items
         $scope.activateSlider = function(index, itemName, pageId) {

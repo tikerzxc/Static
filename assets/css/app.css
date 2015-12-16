@@ -168,7 +168,9 @@ body {
 }
 
 .content-wrapper .slider-wrapper .text-standard {
-    font-size: 13px;
+    font-family: 'Verdana';
+    font-weight: normal;
+    font-size: 12px;
     line-height: 17px;
     color: #000000;
 }

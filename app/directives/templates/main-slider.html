@@ -15,18 +15,20 @@
             </div>
             <!-- end: inner-image-wrap -->
 
-            <!--<div class="inner-tutorials-wrap" ng-if="item.type === 'inner-slides'">-->
-                <!--<div class="inner-slides-wrap">-->
-                    <!--<div ng-repeat="subitem in item.items" class="inner-content-wrap">-->
-                  <!--<span content="subitem" src="subitem.src" data="subitem" class="tutorials-short-desc short-desc">-->
-                  <!--</span>-->
-                    <!--</div>-->
-                    <!--<span ng-bind-html="[[item.shortDesc]] | htmlize" class="short-desc"></span>-->
-                <!--</div>-->
-                <!--<div class="video-inner-wrap" ng-hide="videoHidden">-->
-                    <!--<video vg-src="videoSources" preload="metadata" controls></video>-->
-                <!--</div>-->
-            <!--</div>-->
+            <!-- begin: inner-tutorials-wrap -->
+            <div class="inner-tutorials-wrap" ng-if="item.type === 'inner-slides'">
+                <div class="inner-slides-wrap">
+                    <div ng-repeat="subitem in item.items" class="inner-content-wrap">
+                  <span content="subitem" src="subitem.src" data="subitem" class="tutorials-short-desc short-desc">
+                  </span>
+                    </div>
+                    <span ng-bind-html="'[[item.shortDesc]]' | htmlize" class="short-desc"></span>
+                </div>
+                <div class="video-inner-wrap" ng-hide="videoHidden">
+                    <video vg-src="videoSources" preload="metadata" controls></video>
+                </div>
+            </div>
+            <!-- end: inner-tutorials-wrap -->
 
             <!-- begin: inner-image-wrap -->
             <div class="inner-image-wrap" ng-if="item.type === 'inner-images-desc'">

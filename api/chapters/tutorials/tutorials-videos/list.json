@@ -1,0 +1,29 @@
+---
+---
+
+
+{% for chapter in site.categories['tutorials-videos'] %}
+
+  {
+  "shortDesc": {{ chapter.content | jsonify }},
+  "type": {{ chapter.type | jsonify }},
+  "items": [
+      {% for subcategory in site.categories['tutorials-video-items-desc'] %}
+          {
+          "shortDesc": {{subcategory.content | jsonify}},
+          "linkItems": [
+              {% for link in site.categories['tutorials-video-links'] %}
+                {
+                  "text":{{link.text | jsonify}},
+                  "src":{{link.src | jsonify}},
+                  "id":{{ $index | jsonify}}
+                } {% unless forloop.last %},{% endunless %}
+              {% endfor %}
+          ]
+          } {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+
+  ]
+  } {% unless forloop.last %},{% endunless %}
+
+{% endfor %}

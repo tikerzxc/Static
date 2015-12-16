@@ -9,11 +9,11 @@ layout: default
             <li ng-repeat="item in menuItems track by $index" id="[[item.name.toLowerCase()]]">
 
                 <a href="/" ng-if="$index === 0">[[item.name]]</a>
-                <a href="/[[item.route.toLowerCase()]]" ng-if="$index > 0">[[item.name]]</a>
+                <a href="/[[item.dest.toLowerCase()]]" ng-if="$index > 0">[[item.name]]</a>
 
                 <ul ng-if="item.items">
                     <li ng-repeat="subitem in item.items">
-                        <a ng-click="activateSlider($index, item.name.toLowerCase(), pageId)" ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
+                        <a href="" ng-click="activateSlider($index, item.name.toLowerCase(), item.dest.toLowerCase(), pageId)" ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
                     </li>
                 </ul>
 

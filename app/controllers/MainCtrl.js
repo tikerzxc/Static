@@ -8,61 +8,14 @@
         $scope.slidersVisited = $scope.menuData = [];
         $scope.lastMenuItem = false;
 
-        //-- Get header menu items
-        $scope.menuData = [
-            {
-                name : 'Inleiding',
-                dest: 'home'
-            },
-            {
-                name : 'Tutorials',
-                dest: 'tutorials'
-            },
-            {
-                name: 'Theorie',
-                dest: 'theory',
-                items: [
-                    {name: 'Week 1: diafragma, sluitertijd en ISO'},
-                    {name: 'Week 2: De juiste belichting'},
-                    {name: 'Week 3: Beweging'}
-                ]
-            },
-            {
-                name: 'Opdrachten',
-                dest: 'assignments',
-                items: [
-                    {name: 'Inleiding'},
-                    {name: '1. Weinig scherptediepte'},
-                    {name: '2. Veel scherptediepte'},
-                    {name: '3. Lange sluitertijd'},
-                    {name: '4. Korte sluitertijd'}
-                ]
-            },
-            {
-                name: 'Test jezelf!',
-                dest: 'test'
-            },
-            {
-                name: 'Links',
-                dest: 'links'
-            },
-            {
-                name: 'Mijn foto\'s!',
-                dest: 'photos'
-            }
-        ];
-
         // -- Get menu items
-        //getData.fetchItems('/menu/menu-items.json').then(function(data) {
-        //    $scope.menuData.push(data);
-        //});
+        $scope.menuData = menuData;
 
         // -- Activate slider when clicking on submenu items
-        $scope.activateSlider = function(index, itemName, pageId) {
+        $scope.activateSlider = function(index, itemName, itemDest, pageId) {
 
             if(itemName !== pageId.toLowerCase()) {
-                var _currRouteName = routes.getRouteName(itemName);
-                $window.location.href = '/' + _currRouteName;
+                $window.location.href = '/' + itemDest;
             }
 
             $scope.$broadcast('activateSlider', index);

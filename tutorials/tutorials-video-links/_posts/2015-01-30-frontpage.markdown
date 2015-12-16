@@ -1,7 +1,7 @@
 ---
 layout: null
 text: 'Instructie'
-src: 'http://videogular.com/assets/videos/videogular.mp4'
+src: '1.webm'
 id: 'id_1'
 permalink: home
 ---

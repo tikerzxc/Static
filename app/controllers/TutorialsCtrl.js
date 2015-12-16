@@ -5,7 +5,7 @@
     TutorialsCtrl.inject = ['$scope', 'getData'];
 
     function TutorialsCtrl($scope, getData) {
-        $scope.pageId = 'Home';
+        $scope.pageId = 'Tutorials';
 
         //$scope.dataItems = [
         //    [
@@ -57,14 +57,8 @@
                                    dataArr.push(data);
                                });
 
-                                console.log('dataItems', $scope.dataItems);
-
                                return $scope.dataItems;
                            });
-
-
-
-
 
     }
 

@@ -213,7 +213,7 @@
                 // -- Handle video slides interaction
                 scope.videoHidden = true;
 
-                scope.videoSources = [ // -- Make first video default for 'tutorials' page
+                scope.videoSources = [ // -- Preload first video for 'tutorials videos' page
                     {src: $sce.trustAsResourceUrl( "http://videogular.com/assets/videos/videogular.mp4" ), type: "video/webm"}
                 ];
 
@@ -239,6 +239,11 @@
                     }
 
                 });
+
+                // Fix arrows for 'tutorials' page
+                if(scope.pageId.toLowerCase() === 'tutorials') {
+                    scope.length = scope.length + 1;
+                }
 
                 // -- Theory desc sliders
                 scope.wrapImgVisible = true;

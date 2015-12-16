@@ -14,9 +14,9 @@
           "linkItems": [
               {% for link in site.categories['tutorials-video-links'] %}
                 {
-                  "text":{{link.text | jsonify}},
-                  "src":{{link.src | jsonify}},
-                  "id":{{ $index | jsonify}}
+                  "text": {{link.text | jsonify}},
+                  "src": "/assets/videos/{{subcategory.id }}/{{forloop.index}}/{{link.src}}",
+                  "id": "{{subcategory.id }}-{{forloop.index}}"
                 } {% unless forloop.last %},{% endunless %}
               {% endfor %}
           ]

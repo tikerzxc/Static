@@ -1,6 +1,7 @@
 ---
 layout: null
 type: 'inner-slides'
+id: 'week-2'
 permalink: home
 ---
 

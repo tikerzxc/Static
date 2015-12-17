@@ -172,6 +172,7 @@ body {
     font-size: 12px;
     line-height: 17px;
     color: #7f7f7f;
+    word-wrap: break-word;
 }
 
 .slider-wrapper .text-standard ul {
@@ -209,12 +210,14 @@ body {
     top:0;
     left:0;
     width: 100%;
+    overflow: hidden;
 }
 
 .slider-wrapper .slider .text-wrap {
     float: left;
     width: 430px;
-    height: 420px;
+    height: 430px;
+    overflow: hidden;
     padding: 0px 10px 0px 0px;
     font-size: 12px;
     line-height: 17px;

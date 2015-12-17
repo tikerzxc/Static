@@ -28,7 +28,8 @@ var menuData = [
             {name: '1. Weinig scherptediepte'},
             {name: '2. Veel scherptediepte'},
             {name: '3. Lange sluitertijd'},
-            {name: '4. Korte sluitertijd'}
+            {name: '4. Korte sluitertijd'},
+            {name: '5. Lightroom'}
         ]
     },
     {

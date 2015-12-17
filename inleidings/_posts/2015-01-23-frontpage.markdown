@@ -16,4 +16,3 @@ ISO in stops:
 **ISO-waarde**<br>
 **Laag** 100    200  400       800       1600      3200     6400  125000    **Hoog**
 
-![](images/iso_2.png)

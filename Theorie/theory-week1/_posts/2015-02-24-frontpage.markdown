@@ -10,7 +10,7 @@ permalink: home
 Op het moment dat je een foto maakt gaat de sluiter open om licht op de beeldsensor te laten vallen. Na een korte tijd gaat de sluiter weer dicht. De tijd dat de sluiter open staat noemen we sluitertijd.
 
 
-Je stelt de sluitertijd in om te bepalen hoe lang het licht op de beeldsensor mag vallen, ofwel je stelt de belichtingstijd in.
+Je stelt de sluitertijd in om te bepalen hoe _lang_ het licht op de beeldsensor mag vallen, ofwel je stelt de _belichtingstijd_ in.
 Sluitertijden in stops:
 
 **Lang**       **Sluitertijd**  **Kort**

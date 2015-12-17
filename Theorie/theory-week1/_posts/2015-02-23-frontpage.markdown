@@ -11,4 +11,4 @@ Als je een snel bewegend onderwerp heel scherp wilt fotograferen, stel dan je ca
 
 Als je de beweging van een snel bewegend object juist wilt vervagen, kies dan voor een langere sluitertijd. Het gebruik van een statief hierbij zorgt ervoor dat alleen het bewegende object wordt vervaagd terwijl de rest scherp blijft.
 
-Let op. Bewegingsonscherpte is iets anders dan trillingsonscherpte. Trillingsonscherpte ontstaat bij lange sluitertijden omdat je handen gaan trillen. Hoe lang je een camera kunt stil houden verschilt per persoon. Trillingsonscherpte wordt ook wel camera-onscherpte genoemd.
+Let op. Bewegingsonscherpte is iets anders dan _trillingsonscherpte_. Trillingsonscherpte ontstaat bij lange sluitertijden omdat je handen gaan trillen. Hoe lang je een camera kunt stil houden verschilt per persoon. Trillingsonscherpte wordt ook wel _camera-onscherpte_ genoemd.

@@ -12,5 +12,5 @@ Daarnaast kun je het diafragma ook gebruiken om een visueel effect aan je foto t
 Onthoud:<br>
 Groot deel van foto scherp = grote scherptediepte = groot getal<br>
 Klein deel van foto scherp = kleine scherptediepte = klein getal<br>
-Kies bijvoorbeeld 11 of hoger als je alles scherp, dus een grote scherptediepte wilt hebben.<br>
-Kies 5.6 of lager als je een kleine scherptediepte wilt hebben.
+Kies bijvoorbeeld 11 of hoger als je alles scherp, dus een _grote scherptediepte_ wilt hebben.<br>
+Kies 5.6 of lager als je een _kleine scherptediepte_ wilt hebben.

@@ -13,9 +13,8 @@ ander visueel effect. Je doet dat door te variëren met de
 sluitertijd en camerabeweging. Je kunt hiermee de volgende 
 visuele effecten creëren:
 
-<ul class="theory-last-list">
-    <li>Beweging bevriezen</li>
-    <li>Beweging vervagen</li>
-    <li>Pannen</li>
-</ul>
+* Beweging bevriezen
+* Beweging vervagen
+* Pannen
+
 In de volgende schermen gaan we nader in op deze effecten.

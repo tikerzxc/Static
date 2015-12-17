@@ -1,9 +1,7 @@
 /**************************
  Main content styles
 **************************/
-* {
-    text-shadow: transparent 0px 0px 0px, rgba(0,0,0,0.68) 0px 0px 0px !important;
-}
+
 body {
     font-family: Verdana, Arial;
     background-color: #fbfbfb;
@@ -22,6 +20,7 @@ body {
     background-repeat: no-repeat;
     border: 0px none;
     cursor: default;
+    color: #7f7f7f;
 }
 
 /*** Menu styles ***/
@@ -172,7 +171,7 @@ body {
     font-weight: normal;
     font-size: 12px;
     line-height: 17px;
-    color: #000000;
+    color: #7f7f7f;
 }
 
 .slider-wrapper .text-standard ul {
@@ -217,16 +216,16 @@ body {
     width: 430px;
     height: 420px;
     padding: 0px 10px 0px 0px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 17px;
-    color: #000000;
+    color: #7f7f7f;
 }
 
 .slider-wrapper .slider .title {
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 13.0pt;
+    font-family: Calibri;
     line-height: 17px;
-    color: #000000;
+    color: #7f7f7f;
 }
 
 .slider-wrapper .slider .img-wrap, .slider-wrapper .slider .img-wrap-desc, .slider-wrapper .slider .img-text-desc  {
@@ -241,6 +240,9 @@ body {
 }
 
 .slider-wrapper .slider .img-wrap {
+    width: 448px;
+    height: 423px;
+    overflow: hidden;
     position: absolute;
     right: 30px;
     top: 0px;
@@ -353,6 +355,7 @@ body {
 
 .slider-wrapper .inner-tutorials-wrap .short-desc {
     line-height: 1.5em;
+    color: #7f7f7f;
 }
 
 .slider-wrapper .video-inner-wrap {
@@ -370,8 +373,8 @@ body {
 }
 
 .inner-image-wrap li {
-    list-style-type: none;
     margin-bottom: 3px;
+    list-style-type: none;
 }
 
 ul.inner-list {

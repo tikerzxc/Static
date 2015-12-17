@@ -18,7 +18,5 @@ moeten aanpassen als je het bewegende onderwerp scherp op de
 foto wilt krijgen.
 Dus, je begint met het instellen van de:
 
-<ul class="theory-last-list">
-    <li>Sluitertijd </li>
-    <li>Autofocus</li>
-</ul>
+* Sluitertijd 
+* Autofocus

@@ -16,11 +16,11 @@ Als je klaar bent met de 4 opdrachten maak je een selectie van
 de beste foto bij elke opdracht. Sla deze op als jpg en geef deze 
 een duidelijke naam:
 
-<ul class="default">
-    <li>Voor de foto bij opdracht 1: M1_O1_[jouw afkorting].jpg</li>
-    <li>Voor de foto bij opdracht 2: M1_O2_[jouw afkorting].jpg </li>
-    <li>Etc.</li>
-</ul>
+
+Voor de foto bij opdracht 1: M1_O1_[jouw afkorting].jpg
+Voor de foto bij opdracht 2: M1_O2_[jouw afkorting].jpg 
+Etc.
+
 
 <span class="accent">Nog een tip voor alle opdrachten:</span>
 

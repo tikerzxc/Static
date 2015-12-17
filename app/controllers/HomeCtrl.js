@@ -10,7 +10,7 @@
         $scope.viewedSlides = $scope.dataItems = [];
 
         // -- Get items
-        getData.fetchItems('/api/chapters/inleidings/list.json').then(function(data) {
+        getData.fetchItems('api/chapters/inleidings/list.json').then(function(data) {
             $scope.dataItems = data;
         });
     }

@@ -21,7 +21,7 @@ We gaan je uitleggen hoe dit werkt en hoe jij kunt bepalen hoe
 jouw foto's er uiteindelijk uitzien. We beginnen daarom bij het 
 begin: de belichting.
 
-![programma](../assets/img/elem/programma.jpg) 
+![programma](assets/img/elem/programma.jpg) 
 
 <span class="text-link">Klik here</span> om met meteen met de theorie te beginnen of klik op 
 **Theorie** in de balk hierboven en maak een keuze uit een van de onderwerpen.

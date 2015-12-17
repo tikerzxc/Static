@@ -227,7 +227,7 @@
                 scope.videoHidden = true;
 
                 scope.videoSources = [ // -- Preload first video for 'tutorials videos' page
-                    {src: $sce.trustAsResourceUrl( "/assets/videos/IV_02_0100.mp4" ), type: "video/mp4"}
+                    {src: $sce.trustAsResourceUrl( "assets/videos/IV_02_0100.mp4" ), type: "video/mp4"}
                 ];
 
                 scope.$on('changeVideo', function(event, src) {
@@ -276,7 +276,7 @@
                 $window.localStorage.clear();
 
             },
-            templateUrl:'/app/directives/templates/main-slider.html'
+            templateUrl:'app/directives/templates/main-slider.html'
 
         }
     };

@@ -15,7 +15,7 @@
         $scope.activateSlider = function(index, itemName, itemDest, pageId) {
 
             if(itemName !== pageId.toLowerCase()) {
-                $window.location.href = '/' + itemDest;
+                $window.location.href = itemDest;
             }
 
             $scope.$broadcast('activateSlider', index);

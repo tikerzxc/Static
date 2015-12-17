@@ -2,9 +2,9 @@
 
 (function () {
 
-    MainCtrl.inject = ['$scope', '$rootScope', '$timeout', '$window', 'updateMenuItems', 'routes', 'getData'];
+    MainCtrl.inject = ['$scope', '$rootScope', '$timeout', '$window', 'updateMenuItems', 'getData'];
 
-    function MainCtrl($scope, $rootScope, $timeout, $window, updateMenuItems, routes, getData) {
+    function MainCtrl($scope, $rootScope, $timeout, $window, updateMenuItems, getData) {
         $scope.slidersVisited = $scope.menuData = [];
         $scope.lastMenuItem = false;
 
@@ -20,9 +20,6 @@
 
             $scope.$broadcast('activateSlider', index);
         };
-
-        // -- Get current route
-        routes.getRoute($scope.menuData);
 
         // -- Extend menu items with default data
         $scope.menuItems = updateMenuItems.extendMenuItems($scope.menuData);

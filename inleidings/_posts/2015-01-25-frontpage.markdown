@@ -2,7 +2,7 @@
 layout: null
 title:  "De Sluitertijd"
 type: "image"
-src: "fastshutteranimation.gif"
+src: "fastshutteranimation2.gif"
 permalink: home
 ---
 

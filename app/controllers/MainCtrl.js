@@ -21,6 +21,11 @@
             $scope.$broadcast('activateSlider', index);
         };
 
+        //-- Open new window for 'links/my photos' pages
+        $scope.openWindow = function(name) {
+            $window.open(name, name, 'height=' + screen.height + ',width=616');
+        };
+
         // -- Extend menu items with default data
         $scope.menuItems = updateMenuItems.extendMenuItems($scope.menuData);
 

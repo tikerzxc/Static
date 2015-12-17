@@ -61,6 +61,7 @@ body {
     padding-top: 5px;
     letter-spacing: 0px;
     text-align: center;
+    cursor: pointer;
 }
 
 .main-menu ul > li:last-child  a {
@@ -439,6 +440,82 @@ ol.panel-list li {
     position: relative;
     top: 1px;
     left: 2px;
+}
+
+/*** Styling 'links' page ***/
+.links-page-wrapper .header-wrapper {
+    width: 616px;
+    height: 90px;
+    overflow: hidden;
+    background-image: url('../img/bg/bibliotheekbackdrop.jpg');
+    background-repeat: no-repeat;
+}
+
+.links-page-wrapper  .links-wrapper {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.links-wrapper .title-wrap .title {
+    font-family: Verdana;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+.links-wrapper .left-col-wrap {
+    float: left;
+    width: 200px;
+}
+
+.links-wrapper .desc-wrap {
+    margin-top: 20px;
+}
+
+.links-wrapper .action-btn {
+    background-color: #39c2d7;
+    padding: 5px 17px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-bottom: 20px;
+}
+
+.links-wrapper .info-short-desc {
+    font-weight: normal;
+}
+
+.links-wrapper .text-standard {
+    font-family: Verdana;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.links-wrapper .right-col-wrap {
+    float: left;
+    margin-left: 40px;
+}
+
+.links-wrapper .right-col-wrap ul {
+    padding: 0px;
+}
+
+.links-wrapper .right-col-wrap li {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.links-wrapper .right-col-wrap .info-link {
+    color: #148a96;
+    font-size: 13px;
+    font-family: Verdana;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 /*** Slider styles ***/

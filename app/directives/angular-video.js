@@ -18,7 +18,9 @@
                             canPlay = element[0].canPlayType(sources[i].type);
 
                             if (canPlay == "maybe" || canPlay == "probably") {
-                                element.html('<source src="'+ sources[i].src +'" type="'+ sources[i].type +'">');
+                                element.attr("src", sources[i].src);
+                                element.attr("type", sources[i].type);
+                                //element.html('<source src="'+ sources[i].src +'" type="'+ sources[i].type +'">');
                                 break;
                             }
                         }

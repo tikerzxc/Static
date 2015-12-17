@@ -1,0 +1,11 @@
+---
+layout: null
+title:  "Stop"
+type: "image"
+src: "vallende-sterren-ruis.jpg"
+permalink: home
+---
+
+Een stop is de verdubbeling of halvering van de hoeveelheid licht die op de beeldsensor valt. Het is een begrip waarmee je een wijziging in diafragma, sluitertijd en ISO-waarde kunt uitdrukken.
+
+In moderne camera’s vind je vaak een schaal met kleinere stappen van een halve stop en soms zelfs van een 1/3 stop. Om een hele stop te springen gaat het diafragma of de sluitertijd dan 3 plekken naar links of rechts.

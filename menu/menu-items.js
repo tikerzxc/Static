@@ -6,12 +6,12 @@ var menuData = [
     },
     {
         name : 'Tutorials',
-        dest: 'tutorials',
+        dest: 'tutorials.html',
         newWindow: false
     },
     {
         name: 'Theorie',
-        dest: 'theory',
+        dest: 'theory.html',
         newWindow: false,
         items: [
             {name: 'Week 1: diafragma, sluitertijd en ISO'},
@@ -21,30 +21,29 @@ var menuData = [
     },
     {
         name: 'Opdrachten',
-        dest: 'assignments',
+        dest: 'assignments.html',
         newWindow: false,
         items: [
             {name: 'Inleiding'},
             {name: '1. Weinig scherptediepte'},
             {name: '2. Veel scherptediepte'},
             {name: '3. Lange sluitertijd'},
-            {name: '4. Korte sluitertijd'},
-            {name: '5. Lightroom'}
+            {name: '4. Korte sluitertijd'}
         ]
     },
     {
         name: 'Test jezelf!',
-        dest: 'test',
+        dest: 'test.html',
         newWindow: false
     },
     {
         name: 'Links',
-        dest: 'links',
-        newWindow: true
+        dest: 'links.html',
+        newWindow: false
     },
     {
         name: 'Mijn foto\'s!',
-        dest: 'photos',
+        dest: 'http://e-ducation.staging.fotovakschool.com/en/fvs/student/upload',
         newWindow: true
     }
 ];

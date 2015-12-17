@@ -3,8 +3,8 @@ layout: null
 title:  "Tutorials"
 type: null
 permalink: home
+tags: tutorials-home
 ---
-
 
 In het volgende scherm vind je links naar video's bij de 
 onderwerpen basis begrippen (Diafragma, sluitertijd & ISO), de 

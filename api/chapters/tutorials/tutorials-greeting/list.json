@@ -1,16 +1,15 @@
 ---
 ---
 
-
-{% for chapter in site.categories['tutorials-greeting'] %}
+{% assign tutorialshome = site.tags.tutorials-home.first %}
 
 {
-"shortDesc"    : {{ chapter.title | jsonify }},
-"fullDesc"  : {{ chapter.content | jsonify }},
-"type"  : {{ chapter.type | jsonify }},
-"src"  : {{ chapter.src | jsonify }}
-} {% unless forloop.last %},{% endunless %}
+"shortDesc"    : {{ tutorialshome.title | jsonify }},
+"fullDesc"  : {{ tutorialshome.content | jsonify }},
+"type"  : {{ tutorialshome.type | jsonify }},
+"src"  : {{ tutorialshome.src | jsonify }}
+}
 
-{% endfor %}
+
 
 

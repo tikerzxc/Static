@@ -1,0 +1,15 @@
+---
+layout: null
+type: 'inner-slides'
+id: 'week-3'
+video1: 'http://e-ducation.staging.fotovakschool.com/html-documents/204/videos/IV_03_0100.mp4'
+video2: 'http://e-ducation.staging.fotovakschool.com/html-documents/204/videos/TV_B003_V3.mp4'
+permalink: home
+tags: video
+---
+
+
+<div class="text-standard">
+    Week 3 : Beweging fotograferen
+    <br><br>
+</div>

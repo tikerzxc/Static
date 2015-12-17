@@ -2,25 +2,25 @@
 ---
 
 
-{% for chapter in site.categories['tutorials-videos'] %}
+{% for chapter in site.tags.linkspage %}
 
   {
   "shortDesc": {{ chapter.content | jsonify }},
   "type": {{ chapter.type | jsonify }},
   "items": [
-      {% for subcategory in site.categories['tutorials-video-items-desc'] %}
+      {% for post in site.tags.video %}
           {
-          "shortDesc": {{subcategory.content | jsonify}},
+          "shortDesc": {{post.content | jsonify}},
            "linkItems" : [
               {
                       "text": "Instructie",
-                      "src": "{{subcategory.video1}}",
-                      "id": "{{subcategory.id }}-0-{{forloop.index}}"
+                      "src": "{{post.video1}}",
+                      "id": "{{post.id }}-0-{{forloop.index}}"
               },
               {
                       "text": "Toepassing",
-                      "src": "{{subcategory.video2}}",
-                      "id": "{{subcategory.id }}-1-{{forloop.index}}"
+                      "src": "{{post.video2}}",
+                      "id": "{{post.id }}-1-{{forloop.index}}"
               }
             ]
           } {% unless forloop.last %},{% endunless %}

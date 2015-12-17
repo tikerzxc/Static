@@ -3,6 +3,7 @@ layout: null
 title:  "tutorials"
 type: 'inner-slides'
 permalink: home
+tags: linkspage
 ---
 
 

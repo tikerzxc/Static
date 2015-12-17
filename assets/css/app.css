@@ -216,7 +216,7 @@ body {
 .slider-wrapper .slider .text-wrap {
     float: left;
     width: 430px;
-    height: 430px;
+    height: 445px;
     overflow: hidden;
     padding: 0px 10px 0px 0px;
     font-size: 12px;
@@ -359,6 +359,8 @@ body {
 .slider-wrapper .inner-tutorials-wrap .short-desc {
     line-height: 1.5em;
     color: #7f7f7f;
+    padding-top: 5px;
+    display: inline-block;
 }
 
 .slider-wrapper .video-inner-wrap {

@@ -67,6 +67,11 @@
                         scope.$emit('showTestsResults');
                     }
 
+                    // -- Activate 'results' slide on 'tests' page
+                    if( (scope.$parent.pageId === 'Test') && (scope.currentIndex + 1 === scope.images.length) ) {
+                        scope.$emit('showTestsResults');
+                    }
+
                 };
 
                 // -- Show previous slider image
@@ -108,6 +113,14 @@
                         scope.hide(elem);
                     }
 
+                });
+
+                // -- Activate 'results' slide on 'tests' page
+                scope.testResults = false;
+                scope.$on('showTestPageResults', function() {
+                    $timeout(function() {
+                        scope.testResults = true;
+                    });
                 });
 
                 // -- Activate 'results' slide on 'tests' page

@@ -8,7 +8,21 @@
                 <div class="text-wrap" ng-if="item.type !== 'inner-slides' && item.shortDesc">
                     <div class="title" ng-bind-html="'[[item.shortDesc]]' | htmlize"></div>
                     <div ng-bind-html="'[[item.fullDesc]]' | htmlize" class="text-standard"></div>
+
+                    <!-- begin: options-wrap -->
+                    <div class="options-wrap" ng-if="item.options">
+                        <ul>
+                            <li ng-repeat="option in item.options" class="option-item-wrap">
+                                <label for="[[option.id]]">
+                                    <input type="radio" name="Answer" id="[[option.id]]" value="[[option.id]]" />
+                                    <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- begin: options-wrap -->
                 </div>
+
                 <div class="img-wrap" ng-if="item.type">
                     <img ng-src="/assets/img/elem/[[item.src]]" />
                 </div>
@@ -55,7 +69,7 @@
         </div>
 
         <!-- begin: arrows -->
-        <div class="arrows" ng-if="arrowsVisible">
+        <div class="arrows" ng-if="arrowsVisible && !testResults">
             <a href="#" ng-click="prev(sliderIndex)" ng-class="{'hidden': firstSlider}" class="first"></a>
             <span class="page-nums">[[currentIndex + 1]] / [[length]]</span>
             <a href="#" ng-click="next(sliderIndex)" ng-class="{'hidden': lastSlider}" class="last"></a>

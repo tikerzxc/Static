@@ -43,6 +43,10 @@
             $scope.$broadcast('showTheoryText', data);
         });
 
+        $rootScope.$on('showTestsResults', function(){
+            $scope.$broadcast('showTestPageResults');
+        });
+
         $rootScope.$on('showSlider', function (event, sliderIndex) {
             $scope.$broadcast('activateSliderContainer', sliderIndex);
         });

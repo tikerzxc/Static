@@ -407,6 +407,25 @@ ol.panel-list li {
     font-weight: normal;
 }
 
+.slider-wrapper .options-wrap, .slider-wrapper .options-wrap .option-item-wrap {
+    float: left;
+    clear: both;
+}
+
+.slider-wrapper .options-wrap .option-item-wrap {
+    margin-bottom: 10px;
+}
+
+.slider-wrapper .options-wrap label {
+    display: block;
+    cursor: pointer;
+}
+
+.options-wrap .option-item-wrap span {
+    position: relative;
+    top: 1px;
+    left: 2px;
+}
 
 /*** Slider styles ***/
 .slider{

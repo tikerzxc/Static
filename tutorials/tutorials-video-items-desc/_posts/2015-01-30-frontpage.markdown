@@ -2,8 +2,8 @@
 layout: null
 type: 'inner-slides'
 id: 'week-1'
-video1: '/assets/videos/IV_02_0100.mp4'
-video2: '/assets/videos/videogular.mp4'
+video1: '/assets/videos/IV_01_0101.mp4'
+video2: '/assets/videos/TV_B001_V1.mp4'
 permalink: home
 ---
 

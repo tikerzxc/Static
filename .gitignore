@@ -1,5 +1,5 @@
 _site/
-assets/videos
+/assets/videos/*
 
 #dot-file exceptions
 .*

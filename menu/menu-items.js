@@ -1,15 +1,15 @@
 var menuData = [
     {
         name : 'Inleiding',
-        dest: 'home'
+        dest: 'home.html'
     },
     {
         name : 'Tutorials',
-        dest: 'tutorials'
+        dest: 'tutorials.html'
     },
     {
         name: 'Theorie',
-        dest: 'theory',
+        dest: 'theory.html',
         items: [
             {name: 'Week 1: diafragma, sluitertijd en ISO'},
             {name: 'Week 2: De juiste belichting'},
@@ -18,7 +18,7 @@ var menuData = [
     },
     {
         name: 'Opdrachten',
-        dest: 'assignments',
+        dest: 'assignments.html',
         items: [
             {name: 'Inleiding'},
             {name: '1. Weinig scherptediepte'},
@@ -29,14 +29,14 @@ var menuData = [
     },
     {
         name: 'Test jezelf!',
-        dest: 'test'
+        dest: 'test.html'
     },
     {
         name: 'Links',
-        dest: 'links'
+        dest: 'links.html'
     },
     {
         name: 'Mijn foto\'s!',
-        dest: 'photos'
+        dest: 'photos.html'
     }
 ];

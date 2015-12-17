@@ -2,8 +2,8 @@
 layout: null
 type: 'inner-slides'
 id: 'week-2'
-video1: '/assets/videos/IV_02_0100.mp4'
-video2: '/assets/videos/TV_B002.mp4'
+video1: 'http://e-ducation.staging.fotovakschool.com/html-documents/204/canon_tutorials/assets/videos/IV_02_0100.mp4'
+video2: 'http://e-ducation.staging.fotovakschool.com/html-documents/204/canon_tutorials/assets/videos/TV_B002.mp4'
 permalink: home
 ---
 

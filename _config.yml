@@ -10,7 +10,7 @@ title: Canon workshop
 email: info@fotovakschool.com
 description: > # this means to ignore newlines until "baseurl:"
   Canon workshop tutorial - for internal use only
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/canon" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fotovakschool
 github_username:  fotovakschool

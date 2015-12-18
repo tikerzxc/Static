@@ -224,7 +224,7 @@
                 }
 
                 // -- Hide 'next' icon if only 1 slide and 1 image exist
-                if( scope.sliderIndex + 1 === scope.data.length ) {
+                if( (scope.sliderIndex + 1 === scope.data.length) && (scope.currentIndex + 1 === scope.images.length) ) {
                     scope.lastSlider = true;
                 }
 

@@ -190,6 +190,11 @@ body {
     color: #009697;
 }
 
+.content-wrapper .slider-wrapper .activate-slider {
+    color: #009697;
+    cursor: pointer;
+}
+
 .inner-page-wrapper .slider-wrapper .slider {
     position: absolute;
     top: 156px;

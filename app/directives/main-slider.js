@@ -90,6 +90,32 @@
 
                 };
 
+                // -- Activate slider with images
+                scope.activateSlider = function() {
+                    var storedItem = angular.fromJson( $window.localStorage.getItem('activateSlider') );
+
+                    if( scope.sliderIndex === parseInt(storedItem.sliderIndex) || 0 ) {
+                        scope.show(elem);
+
+                        $timeout(function() {
+                            scope.currentIndex = parseInt(storedItem.sliderImageIndex) || 0;
+                        });
+
+                        if( scope.currentIndex + 1 === scope.images.length) {
+                            scope.$emit('slideViewed', {id: scope.pageId, index: parseInt(storedItem.sliderIndex) });
+                        }
+
+
+                    } else {
+                        scope.hide(elem);
+                    }
+
+                    setTimeout(function() {
+                        $window.localStorage.clear();
+                    }, 500);
+
+                };
+
                 scope.$on('activateSliderContainer', function(event, index) {
 
                     if(scope.sliderIndex === index) {
@@ -101,18 +127,7 @@
 
                 // -- Activate slider when clicking on submenu items
                 scope.$on('activateSlider', function(event, index) {
-
-                    if(scope.sliderIndex === index) {
-                        scope.show(elem);
-
-                        if(scope.currentIndex + 1 === scope.images.length) {
-                            scope.$emit('slideViewed', {id: scope.pageId, index: scope.sliderIndex });
-                        }
-
-                    } else {
-                        scope.hide(elem);
-                    }
-
+                    scope.activateSlider();
                 });
 
                 // -- Activate 'results' slide on 'tests' page
@@ -273,7 +288,10 @@
 
                 });
 
-                $window.localStorage.clear();
+                // -- Activate selected slide when clicking on 'activate-slider' links
+                if( $window.localStorage.getItem('activateSlider') ) {
+                    scope.activateSlider();
+                }
 
             },
             templateUrl:'app/directives/templates/main-slider.html'

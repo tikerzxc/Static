@@ -38,14 +38,9 @@
         };
 
         this.addVisitedSlider = function(pageId, slideIndex, slidersData) {
-            var _currPageId = pageId;
-            var _currSlideIndex = slideIndex;
+            var _slideExists = _.findWhere(slidersData, {id: pageId, index: slideIndex});
 
-            var _slideExists = _.findWhere(slidersData,{id: _currPageId, index: _currSlideIndex});
-
-            if(!_slideExists) {
-                slidersData.push( {id: _currPageId, index: _currSlideIndex} );
-            }
+            slidersData.push( {id: pageId, index: slideIndex} );
         };
 
         this.markItems = function(menuItems, currLength, currItemIndex, currItemId) {

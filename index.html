@@ -21,7 +21,7 @@ layout: default
                         <ul ng-if="item.items">
                             <li ng-repeat="subitem in item.items">
                                 <a href="" ng-click="activateSlider($index, item.name.toLowerCase(), item.dest.toLowerCase(), pageId)"
-                                   ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
+                                           ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
                             </li>
                         </ul>
 

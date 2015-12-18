@@ -14,5 +14,4 @@ Iedere mens heeft zo zijn eigen kijk op de wereld. Letterlijk en figuurlijk. Sin
 We hebben het hier over het verschil tussen puur registreren of professionele keuzes maken. Dit laatste kan alleen als je ook de moeite neemt om je te verdiepen in een stukje techniek. Het is niet moeilijk. Maar, je moet weten hoe je verschillende aspecten van de techniek correct moet toepassen om een mooie, boeiende of interessante foto te maken. Hiervoor ben je bij de Fotovakschool aan het juiste adres!
 
 
-Je hebt een nieuwe camera gekocht en staat nu te popelen om die mooie foto’s te gaan maken. Je kijkt naar je camera en ziet allerlei knoppen en menu’s. Waar moet je beginnen? En wat gebeurt er eigenlijk binnen in de camera en waarom? In deze basiscursus gaan wij je wegwijs maken in de techniek en de mogelijkheden die je als fotograaf hebt om ze creatief toe te kunnen passen.
-
+<a class="activate-slider" page-index="2" slider-index="2" slider-image-index="3">Test link: Go to 'Theory' (slide - 3, image - 4)</a>

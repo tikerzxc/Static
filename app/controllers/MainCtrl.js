@@ -13,13 +13,18 @@
 
         // -- Activate slider when clicking on submenu items
         $scope.activateSlider = function(index, itemName, itemDest, pageId) {
+            var activateSliderItem = { sliderIndex: index };
+
+            $window.localStorage.setItem('activateSlider', JSON.stringify(activateSliderItem) );
 
             if(itemName !== pageId.toLowerCase()) {
                 $window.location.href = itemDest;
             }
 
-            $scope.$broadcast('activateSlider', index);
+            $scope.$broadcast('activateSlider', activateSliderItem);
         };
+
+
 
         //-- Open new window for 'links/my photos' pages
         $scope.openWindow = function(name) {

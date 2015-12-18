@@ -23,7 +23,7 @@
 
         //-- Open new window for 'links/my photos' pages
         $scope.openWindow = function(name) {
-            $window.open(name, name, 'height=' + screen.height + ',width=616');
+            $window.open(name, name);
         };
 
         // -- Extend menu items with default data

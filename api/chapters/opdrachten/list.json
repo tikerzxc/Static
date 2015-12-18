@@ -3,7 +3,7 @@
 
 [
   [
-    {% for item in site.tags.inleiding %}
+    {% for item in site.tags.opdrachten-inleiding %}
       {
         "shortDesc"    : {{ item.title | jsonify }},
         "fullDesc"  : {{ item.content | jsonify }},

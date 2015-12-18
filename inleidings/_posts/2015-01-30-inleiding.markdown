@@ -3,6 +3,7 @@ layout: null
 title:  "Hoe werkt het?"
 type: "image"
 src: "culinair-1.jpg"
+tags: inleiding
 permalink: home
 ---
 

@@ -2,7 +2,7 @@
 ---
 [
   [
-    {% for chapter in site.categories.inleidings %}
+    {% for chapter in site.tags.inleiding %}
 
     {
     "shortDesc"    : {{ chapter.title | jsonify }},

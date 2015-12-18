@@ -4,7 +4,7 @@ title:  "Inleiding"
 type: "image"
 src: "opdracht.jpg"
 permalink: home
-tags: inleiding
+tags: opdrachten-inleiding
 ---
 
 In dit onderdeel ga je zelf aan de slag. Je gaat 4 opdrachten 

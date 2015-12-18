@@ -3,6 +3,7 @@ layout: null
 title:  "Inleiding"
 type: "image"
 src: "architectuur_2_gracht.jpg"
+tags: inleiding
 permalink: home
 ---
 

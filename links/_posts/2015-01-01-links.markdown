@@ -1,0 +1,24 @@
+---
+layout: null
+title:  "Links"
+type: "image"
+src: null
+permalink: home
+tags: links
+---
+
+##### Informatieve websites
+
+* [Canon Nederland](http://www.canon.nl/){:target="_blank"}
+* [De Nederlandse Fotovakschool](http://fotovakschool.nl/home){:target="_blank"}
+* [Craft & Vision](http://craftandvision.com/){:target="_blank"}
+
+
+##### Articles
+
+* [Grundlagen der Digitalen Photographie](http://pvol.nl/canon_0300/content/doc/Aperture_Photography_Fundamentals.pdf){:target="_blank"}
+
+##### Boeken
+
+* [Scott Kelbys digitale fotografie boek](http://www.bol.com/nl/p/scott-kelbys-digitale-fotografie-boek/9200000010833580/){:target="_blank"}
+* [Over fotografie - Susan Sntag](http://www.bol.com/nl/p/over-fotografie/1001004004808010/){:target="_blank"}

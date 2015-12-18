@@ -1,24 +1,51 @@
 ---
 layout: default
 ---
-
-<div id="main" class="links-page-wrapper" ng-controller="MainCtrl">
+<div id="main" class="page-wrapper" ng-controller="MainCtrl">
     <div class="inner-page-wrapper">
         <!-- begin: content -->
 
-        <div id="links" class="links-content-wrapper" ng-controller="LinksCtrl" ng-cloak>
-            <!-- begin: header-wrapper -->
-            <div class="header-wrapper"></div>
-            <!-- end: header-wrapper -->
+        <div id="home" class="content-wrapper" ng-controller="LinksCtrl" ng-cloak>
 
-            <!-- begin: links-wrapper -->
-            <div class="links-wrapper">
-                <links-content-wrap content="dataItems"></links-content-wrap>
+            <!-- begin: main menu -->
+            <div id="main-menu" class="main-menu">
+                <ul class="menu-wrap">
+                    <li ng-repeat="item in menuItems track by $index" id="[[item.name.toLowerCase()]]">
+
+                        <a href="." ng-if="$index === 0">[[item.name]]</a>
+
+                        <a href="[[item.dest.toLowerCase()]]" ng-if="$index > 0 && !item.newWindow">[[item.name]]</a>
+
+                        <a ng-click="openWindow(item.dest.toLowerCase())" ng-if="$index > 0 && item.newWindow">[[item.name]]</a>
+
+                        <ul ng-if="item.items">
+                            <li ng-repeat="subitem in item.items">
+                                <a href="" ng-click="activateSlider($index, item.name.toLowerCase(), item.dest.toLowerCase(), pageId)"
+                                   ng-class="{'checked': subitem.viewed || item.lastVisited}">[[subitem.name]]</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
             </div>
-            <!-- end: links-wrapper -->
+            <!-- begin: main menu -->
 
+            <!-- begin: slide images -->
+            <div class="slider-wrapper">
+                <main-slider id="slider-[[$index]]"
+                             images="images"
+                             data="dataItems"
+                             length="images.length"
+                             index="$index"
+                             page-id="pageId"
+                             arrows-visible="true"
+                             ng-repeat="images in dataItems track by $index">
+                </main-slider>
+            </div>
+            <!-- end: slide images -->
         </div>
 
         <!-- end: content -->
     </div>
 </div>
+

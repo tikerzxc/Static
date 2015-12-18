@@ -223,6 +223,11 @@
                     scope.firstSlider = true;
                 }
 
+                // -- Hide 'next' icon if only 1 slide and 1 image exist
+                if( scope.sliderIndex + 1 === scope.data.length ) {
+                    scope.lastSlider = true;
+                }
+
                 // -- Handle video slides interaction
                 scope.videoHidden = true;
 

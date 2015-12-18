@@ -4,6 +4,7 @@ title:  "<b>Opdracht 3: Fotografeer stromend water</b><br><b>Thema:</b> <span>sl
 type: "image"
 src: "water.jpg"
 permalink: home
+tags: lange-sluitertijd
 ---
 
 

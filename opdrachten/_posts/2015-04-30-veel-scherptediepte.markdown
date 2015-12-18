@@ -4,6 +4,7 @@ title:  "<b>Opdracht 2: Fotografeer een landschap.</b><br><b>Thema:</b> <span>sc
 type: "image"
 src: "landschap.jpg"
 permalink: home
+tags: veel-scherptediepte
 ---
 
 

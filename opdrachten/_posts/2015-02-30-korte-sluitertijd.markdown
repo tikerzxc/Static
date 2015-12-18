@@ -4,6 +4,7 @@ title:  "<b>Opdracht 4: Fotografeer een sporter</b><br><b>Thema:</b> <span>sluit
 type: "image"
 src: "sporter.jpg"
 permalink: home
+tags: korte-sluitertijd
 ---
 
 

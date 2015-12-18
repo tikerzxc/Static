@@ -4,6 +4,7 @@ title:  "<b>Opdracht 1: Maak een portret van een geliefde. </b><br><b>Thema:</b>
 type: "image"
 src: "geliefde.jpg"
 permalink: home
+tags: weinig-scherptediepte
 ---
 
 

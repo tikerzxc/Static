@@ -9,45 +9,9 @@
 
         $scope.viewedSlides = $scope.dataItems = [];
 
-        // -- Get items
-        getData.fetchItems('api/chapters/opdrachten/inleiding/list.json').then(function(data) {
-                             $scope.dataItems = getData.concatItems($scope.dataItems, data);
-                             return $scope.dataItems;
-                          })
-                          .then(function(dataArr) {
-                              getData.fetchItems('api/chapters/opdrachten/weinig-scherptediepte/list.json').then(function(data) {
-                                  $scope.dataItems = getData.concatItems(dataArr, data);
-                              });
-                              return $scope.dataItems;
-                          })
-                          .then(function(dataArr) {
-                              getData.fetchItems('api/chapters/opdrachten/veel-scherptediepte/list.json').then(function(data) {
-                                  $scope.dataItems = getData.concatItems(dataArr, data);
-                              });
-                              return $scope.dataItems;
-                          })
-                          .then(function(dataArr) {
-                              getData.fetchItems('api/chapters/opdrachten/lange-sluitertijd/list.json').then(function(data) {
-                                  $scope.dataItems = getData.concatItems(dataArr, data);
-                              });
-                              return $scope.dataItems;
-                          })
-                         .then(function(dataArr) {
-                            getData.fetchItems('api/chapters/opdrachten/korte-sluitertijd/list.json').then(function(data) {
-                                $scope.dataItems = getData.concatItems(dataArr, data);
-                            });
-                            return $scope.dataItems;
-                         })
-
-            .then(function(dataArr) {
-                getData.fetchItems('api/chapters/opdrachten/lightroom/list.json').then(function(data) {
-                    $scope.dataItems = getData.concatItems(dataArr, data);
-                });
-                return $scope.dataItems;
-            })
- ;
-
-        console.log($scope.dataItems);
+        getData.fetchItems('api/chapters/opdrachten/list.json').then(function(data) {
+            $scope.dataItems = data;
+        });
 
     }
 

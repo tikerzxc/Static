@@ -1,0 +1,55 @@
+---
+---
+
+[
+  [
+    {% for item in site.tags.inleiding %}
+      {
+        "shortDesc"    : {{ item.title | jsonify }},
+        "fullDesc"  : {{ item.content | jsonify }},
+        "type"  : {{ item.type | jsonify }},
+        "src"  : {{ item.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  [
+    {% for item in site.tags.weinig-scherptediepte %}
+      {
+      "shortDesc"    : {{ item.title | jsonify }},
+      "fullDesc"  : {{ item.content | jsonify }},
+      "type"  : {{ item.type | jsonify }},
+      "src"  : {{ item.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  [
+    {% for item in site.tags.veel-scherptediepte %}
+      {
+      "shortDesc"    : {{ item.title | jsonify }},
+      "fullDesc"  : {{ item.content | jsonify }},
+      "type"  : {{ item.type | jsonify }},
+      "src"  : {{ item.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  [
+    {% for item in site.tags.lange-sluitertijd %}
+      {
+      "shortDesc"    : {{ item.title | jsonify }},
+      "fullDesc"  : {{ item.content | jsonify }},
+      "type"  : {{ item.type | jsonify }},
+      "src"  : {{ item.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  [
+    {% for item in site.tags.korte-sluitertijd %}
+      {
+      "shortDesc"    : {{ item.title | jsonify }},
+      "fullDesc"  : {{ item.content | jsonify }},
+      "type"  : {{ item.type | jsonify }},
+      "src"  : {{ item.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+]

@@ -1,6 +1,6 @@
 // -- Get data items
 angular.module('starter')
-    .factory('routesHelper', function($http, $q) {
+    .factory('routesHelper', function() {
         return {
             getRouteByIndex: function(pageIndex) {
                 var _currDest =  menuData[pageIndex].dest;

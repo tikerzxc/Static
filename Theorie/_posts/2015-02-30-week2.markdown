@@ -4,6 +4,7 @@ title:  "De juiste belichting"
 type: "image"
 src: "Portret_4.jpg"
 permalink: home
+tags: week2
 ---
 
 **P**

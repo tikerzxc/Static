@@ -253,11 +253,6 @@
 
                 });
 
-                // Fix arrows for 'tutorials' page
-                if(scope.pageId.toLowerCase() === 'tutorials') {
-                    scope.length = scope.length + 1;
-                }
-
                 // -- Theory desc sliders
                 scope.wrapImgVisible = true;
 

@@ -4,6 +4,7 @@ title:  "Fotograferen van bewegende onderwerpen"
 type: "image"
 src: "Rennen_3.png"
 permalink: home
+tags: week3
 ---
 
 **Pannen**

@@ -14,3 +14,4 @@ We hebben het hier over het verschil tussen puur registreren of professionele ke
 
 
 Je hebt een nieuwe camera gekocht en staat nu te popelen om die mooie foto’s te gaan maken. Je kijkt naar je camera en ziet allerlei knoppen en menu’s. Waar moet je beginnen? En wat gebeurt er eigenlijk binnen in de camera en waarom? In deze basiscursus gaan wij je wegwijs maken in de techniek en de mogelijkheden die je als fotograaf hebt om ze creatief toe te kunnen passen.
+

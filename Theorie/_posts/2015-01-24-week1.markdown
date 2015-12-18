@@ -4,6 +4,7 @@ title:  "De Sluitertijd"
 type: "image"
 src: "fastshutteranimation2.gif"
 permalink: home
+tags: week1
 ---
 
 

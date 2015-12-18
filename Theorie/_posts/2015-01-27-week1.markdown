@@ -4,6 +4,7 @@ title:  "Het diafragma"
 type: "image"
 src: "Diafragma_afbeelding.jpg"
 permalink: home
+tags: week1
 ---
 
 Het diafragma is een opening in de lichtbaan van een lens (<u>objectief</u>) die een bepaalde hoeveelheid licht doorlaat of tegenhoudt. Deze lensopening bestaat uit metalen plaatjes (_lamellen_) die samen een cirkel vormen.

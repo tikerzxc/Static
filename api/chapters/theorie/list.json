@@ -1,0 +1,39 @@
+---
+---
+
+[
+  [
+    {% for week1 in site.tags.week1 %}
+      {
+        "shortDesc"    : {{ week1.title | jsonify }},
+        "fullDesc"  : {{ week1.content | jsonify }},
+        "type"  : {{ week1.type | jsonify }},
+        "src"  : {{ week1.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  [
+    {% for week2 in site.tags.week2 %}
+
+    {
+      "shortDesc"    : {{ week2.title | jsonify }},
+      "fullDesc"  : {{ week2.content | jsonify }},
+      "type"  : {{ week2.type | jsonify }},
+      "src"  : {{ week2.src | jsonify }}
+
+    } {% unless forloop.last %},{% endunless %}
+
+    {% endfor %}
+  ],
+  [
+    {% for week3 in site.tags.week3 %}
+      {
+      "shortDesc"    : {{ week3.title | jsonify }},
+      "fullDesc"  : {{ week3.content | jsonify }},
+      "type"  : {{ week3.type | jsonify }},
+      "src"  : {{ week3.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+
+]

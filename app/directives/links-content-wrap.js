@@ -33,28 +33,7 @@
 
 
             },
-            template: '<div class="content-inner-wrap">\
-                         <div class="left-col-wrap">\
-                             <div class="title-wrap"><span  class="title">[[content.shortDesc]]</span></div>\
-                             <div ng-bind-html="\'[[content.fullDesc]]\' | htmlize" class="desc-wrap text-standard"></div>\
-                             <div class="btn-wrap">\
-                                <div ng-repeat="item in content.items" class="btn-inner-wrap">\
-                                   <div class="action-btn" ng-click="showItemDesc($index)" >[[item.title]]</div>\
-                                </div>\
-                             </div>\
-                         </div>\
-                         <div class="right-col-wrap" ng-if="infoVisible">\
-                            <div class="title-wrap"> \
-                                <span class="title">[[itemDesc]]<span> \
-                                <span ng-if="infoShortDesc" class="info-short-desc">[[infoShortDesc]]</span> \
-                            </div> \
-                            <ul class="links-info-wrap">\
-                                <li ng-repeat="item in linkItems">\
-                                   <a ng-click="showWindow(item.path, item.title)" class="info-link">[[item.title]]</a> \
-                                </li>\
-                            <ul>\
-                         </div>\
-                       </div>' 
+            templateUrl:'app/directives/templates/links-content-wrap'
         }
     };
 

@@ -4,6 +4,7 @@ title:  "De juiste belichting"
 type: "image"
 src: "spooky_house.jpg"
 permalink: home
+tags: week2
 ---
 
 Nu je weet welke 3 basisfuncties voor een juiste belichting het belangrijkst zijn, is de volgende stap inzicht te krijgen in de programmavoorkeurstanden van je camera. Met elk van deze instellingen bepaal jij zelf hoeveel controle je over de belichting houdt. Deze voorkeurstanden vind je op de grote ronde knop bovenop je camera, het programmakeuzewiel. Op deze knop staan een aantal (deels) voorgedefinieerde instellingen van combinaties van diafragma en sluitertijd.

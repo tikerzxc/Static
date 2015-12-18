@@ -4,6 +4,7 @@ title:  "Fotograferen van bewegende onderwerpen"
 type: "image"
 src: "5d_mk3_autofocus.jpg"
 permalink: home
+tags: week3
 ---
 
 **Autofocus**

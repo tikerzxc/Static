@@ -4,6 +4,7 @@ title:  "De Sluitertijd"
 type: "image"
 src: "Naamloos.png"
 permalink: home
+tags: week1
 ---
 Ook met de sluitertijd kun je een visueel effect aan je foto’s geven. Met een snelle sluitertijd bevries je een beeld, met een langere sluitertijd creëer je bewegingsonscherpte.
 

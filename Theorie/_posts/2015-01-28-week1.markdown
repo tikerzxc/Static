@@ -4,6 +4,7 @@ title:  "De basis: diafragma, sluitertijd en ISO"
 type: "image"
 src: "Nachtfoto_1_.jpg"
 permalink: home
+tags: week1
 ---
 
 

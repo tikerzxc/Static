@@ -4,6 +4,7 @@ title:  "Stop"
 type: "image"
 src: "vallende-sterren-ruis.jpg"
 permalink: home
+tags: week1
 ---
 
 Een stop is de verdubbeling of halvering van de hoeveelheid licht die op de beeldsensor valt. Het is een begrip waarmee je een wijziging in diafragma, sluitertijd en ISO-waarde kunt uitdrukken.

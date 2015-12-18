@@ -4,6 +4,7 @@ title:  "Fotograferen van bewegende onderwerpen"
 type: "image"
 src: "Bleu_Angels.jpg"
 permalink: home
+tags: week3
 ---
 
 **Sluitertijd**

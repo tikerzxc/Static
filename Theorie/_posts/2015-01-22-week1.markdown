@@ -4,6 +4,7 @@ title:  "ISO"
 type: "image"
 src: "iso_1.png"
 permalink: home
+tags: week1
 ---
 
 

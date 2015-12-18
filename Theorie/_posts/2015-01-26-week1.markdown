@@ -4,6 +4,7 @@ title:  "Het diafragma"
 type: "image"
 src: "scherpte_diepte_1.jpg"
 permalink: home
+tags: week1
 ---
 
 Daarnaast kun je het diafragma ook gebruiken om een visueel effect aan je foto te geven, bijvoorbeeld voor het creëren van een onscherpe voor- en achtergrond. Dit effect wordt scherptediepte genoemd. Je bepaalt daarmee welk deel van je foto scherp wordt afgebeeld.

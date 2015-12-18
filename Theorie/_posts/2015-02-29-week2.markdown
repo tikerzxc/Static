@@ -4,6 +4,7 @@ title:  "De juiste belichting"
 type: "image"
 src: "paard_hand.jpg"
 permalink: home
+tags: week2
 ---
 
 **Av**

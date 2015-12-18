@@ -4,6 +4,7 @@ title:  "Het diafragma"
 type: "image"
 src: "programmakeuzewiel.png"
 permalink: home
+tags: week1
 ---
 
 

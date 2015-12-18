@@ -9,22 +9,9 @@
 
         $scope.viewedSlides = $scope.dataItems = [];
 
-        // -- Get items
-        getData.fetchItems('api/chapters/theorie/week1/list.json').then(function(data) {
-                              $scope.dataItems = getData.concatItems($scope.dataItems, data);
-                              return $scope.dataItems;
-                          })
-                          .then(function(dataArr) {
-                              getData.fetchItems('api/chapters/theorie/week2/list.json').then(function(data) {
-                                  $scope.dataItems = getData.concatItems(dataArr, data);
-                              });
-                              return $scope.dataItems;
-                          })
-                          .then(function(dataArr) {
-                              getData.fetchItems('api/chapters/theorie/week3/list.json').then(function(data) {
-                                  $scope.dataItems = getData.concatItems(dataArr, data);
-                              });
-                          });
+        getData.fetchItems('api/chapters/theorie/list.json').then(function(data) {
+            $scope.dataItems = data;
+        });
 
 	}
 

@@ -293,6 +293,7 @@
                 });
 
                 // -- Reset current slider
+                scope.viewTestResults = false;
                 scope.$on('resetCurrSlider', function() {
 
                     $timeout(function() {
@@ -300,6 +301,7 @@
                         scope.firstSlider = true;
                         scope.lastSlider = false;
                         scope.testResults = false;
+                        scope.viewTestResults = true;
                     });
                 });
 
@@ -341,7 +343,7 @@
                 scope.passedAnswersResult = [];
                 scope.defaultOption = null;
 
-                scope.saveAnswer = function(index, validAnswer, groupId) {
+                scope.saveAnswer = function(index, validAnswer, groupId, itemId) {
                     var _currGroup = groupId[0][0];
 
                     if(index === validAnswer[0][0]) {
@@ -357,6 +359,7 @@
                     }
 
                     scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
+                    scope.savedOptions = _.uniq(scope.savedOptions);
                 };
 
 

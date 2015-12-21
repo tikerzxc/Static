@@ -12,28 +12,37 @@
                     <!-- begin: options-wrap -->
                     <div class="options-wrap" ng-if="item.options">
                         <ul>
-                            <!-- <li ng-repeat="option in item.options" class="option-item-wrap" ng-if="testResultsExist">
-                                <span class="success" ng-if="$index === option.validAnswer">√</span>
-                                <label class="disabled">
-                                     <input name="Answer[[option.group]]"
-                                            type="radio"
-                                            ng-model="option.validAnswer"
-                                            ng-change="saveAnswer($index, [[option.validAnswer]])"
-                                            ng-disabled="true"
-                                            value="[[$index]]">
-                                     <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
-                                 </label>
-                            </li> -->
+                            <!--<li ng-repeat="option in item.options" class="option-item-wrap" ng-if="viewTestResults">-->
+                                <!--<span class="success" ng-if="$index === option.validAnswer">√</span>-->
+                                <!--<label class="disabled">-->
+                                     <!--<input name="Answer[[option.group]]"-->
+                                            <!--type="radio"-->
+                                            <!--value="[[$index]]">-->
+                                     <!--<span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>-->
+                                 <!--</label>-->
+                            <!--</li>-->
+
+                            <!--<li ng-repeat="option in item.options" class="option-item-wrap" ng-if="!viewTestResults">-->
+                                <!--<label ng-click="saveAnswer($index, [[option.validAnswer]], [[option.group]], [[option.id]])">-->
+                                    <!--<input name="Answer[[option.group]]"-->
+                                           <!--type="radio"-->
+                                           <!--value="[[$index]]">-->
+                                    <!--<span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>-->
+                                <!--</label>-->
+                            <!--</li>-->
+
 
                             <li ng-repeat="option in item.options" class="option-item-wrap">
-                                <label ng-click="saveAnswer($index, [[option.validAnswer]], [[option.group]])">
+                                <span class="success" ng-if="$index === option.validAnswer && viewTestResults">√</span>
+
+                                <label ng-click="saveAnswer($index, [[option.validAnswer]], [[option.group]])" ng-class="{'disabled':viewTestResults}">
                                     <input name="Answer[[option.group]]"
                                            type="radio"
-                                           ng-model="defaultOption"
                                            value="[[$index]]">
                                     <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
                                 </label>
                             </li>
+
                         </ul>
                     </div>
                     <!-- end: options-wrap -->

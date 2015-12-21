@@ -15,3 +15,5 @@ We hebben het hier over het verschil tussen puur registreren of professionele ke
 
 
 <a class="activate-slider" page-index="2" slider-index="2" slider-image-index="3">Test link: Go to 'Theory' (slide - 3, image - 4)</a>
+
+<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="1">het diafragma</a>

@@ -38,7 +38,7 @@
                       <span content="subitem" src="subitem.src" data="subitem" class="tutorials-short-desc short-desc">
                       </span>
                     </div>
-                    <span ng-bind-html="'[[item.shortDesc]]' | htmlize" class="short-desc"></span>
+                    <span ng-bind-html="'[[item.shortDesc]]' | htmlize" class="short-desc" redirect-to></span>
                 </div>
                 <div class="video-inner-wrap" ng-hide="videoHidden">
                     <video vg-src="videoSources" preload="metadata" controls></video>
@@ -51,7 +51,7 @@
                 <div class="text-wrap" ng-if="item.type !== 'inner-slides' && item.shortDesc">
                     <div class="title">[[item.shortDesc]]</div>
 
-                    <div ng-bind-html="'[[item.fullDesc]]' | htmlize"></div>
+                    <div ng-bind-html="'[[item.fullDesc]]' | htmlize" redirect-to></div>
 
                     <ul>
                         <li ng-repeat="link in item.linkItems">

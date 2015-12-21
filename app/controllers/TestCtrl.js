@@ -21,7 +21,7 @@
                     fullDesc: '<br><br>Het &#39;diafragma&#39; is:<br><br>',
                     type: 'image',
                     src:'questionsmarks_00.jpg',
-                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>B is het juiste antwoord.<br><br>Het diafragma is de lensopening in het objectief en bepaalt samen met de sluitertijd hoeveel licht er op de sensor van je camera komt.</div></div></div>',
+                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>B is het juiste antwoord.<br><br><p>Het diafragma is de lensopening in het objectief en bepaalt samen met de sluitertijd hoeveel licht er op de sensor van je camera komt.</p></div></div></div>',
                     options: [
                         {
                             titleDesc: '<b>A:</b> De lichtgevoeligheid van de sensor in de camera.',
@@ -45,7 +45,7 @@
                     fullDesc: '<br><br>Met het begrip &#39;stop&#39; kun je een wijziging aangeven van:<br><br>',
                     type: 'image',
                     src:'questionsmarks_00.jpg',
-                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br>Met het begrip stop kun je een wijziging in diafragma, sluitertijd en ISO-waarde uitdrukken en hiermee een wijziging aangeven van de hoeveelheid licht die op de sensor valt.<br></div></div></div>',
+                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br><p>Met het begrip stop kun je een wijziging in diafragma, sluitertijd en ISO-waarde uitdrukken en hiermee een wijziging aangeven van de hoeveelheid licht die op de sensor valt.</p><br></div></div></div>',
                     options: [
                         {
                             titleDesc: '<b>A:</b> ISO.',
@@ -69,7 +69,7 @@
                     fullDesc: '<br><br>Met welke basisfuncties van een camera kun je ook een direct visueel effect creëren?<br><br>',
                     type: 'image',
                     src:'questionsmarks_00.jpg',
-                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br>Met het instellen van het diafragma en de sluitertijd kun je bepaalde onderwerpen de aandacht laten trekken in je foto en daarmee bepalen naar welk deel van de foto de aandacht van de kijker het eerst wordt getrokken.<br> </div></div></div>',
+                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br><p>Met het instellen van het diafragma en de sluitertijd kun je bepaalde onderwerpen de aandacht laten trekken in je foto en daarmee bepalen naar welk deel van de foto de aandacht van de kijker het eerst wordt getrokken.</p><br> </div></div></div>',
                     options: [
                         {
                             titleDesc: '<b>A:</b> Diafragma, sluitertijd en stop.',
@@ -93,7 +93,7 @@
                     fullDesc: '<br><br>Met welke basisfuncties van een camera kun je ook een direct visueel effect creëren?<br><br>',
                     type: 'image',
                     src:'questionsmarks_00.jpg',
-                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C  is het juiste antwoord.<br><br>Met M moet je zelf de waarden voor diafragma, sluitertijd en ISO instellen en heb je dus zelf de meeste controle over de belichting.<br> </div></div></div>',
+                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C  is het juiste antwoord.<br><br><p>Met M moet je zelf de waarden voor diafragma, sluitertijd en ISO instellen en heb je dus zelf de meeste controle over de belichting.</p><br> </div></div></div>',
                     options: [
                         {
                             titleDesc: '<b>A:</b>  P en M.',
@@ -117,7 +117,7 @@
                     fullDesc: '<br><br>Welke functies op je camera stel je in voor het scherp in beeld brengen van bewegende onderwerpen?<br><br>',
                     type: 'image',
                     src:'questionsmarks_00.jpg',
-                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"> <div id="FBField" class="field_text_feedback fbfield"><br>B is het juiste antwoord.<br><br>Snelheid en tijd zijn van belang bij bewegende onderwerpen dus moet je de sluitertijd <br>instellen. Wil je het bewegende onderwerp ook scherp in beeld krijgen, dan moet je de<br>autofocus instellen.<br></div></div></div>',
+                    feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"> <div id="FBField" class="field_text_feedback fbfield"><br><p>B is het juiste antwoord.<br><br>Snelheid en tijd zijn van belang bij bewegende onderwerpen dus moet je de sluitertijd <br>instellen. Wil je het bewegende onderwerp ook scherp in beeld krijgen, dan moet je de<br>autofocus instellen.</p><br></div></div></div>',
                     options: [
                         {
                             titleDesc: '<b>A:</b>  Autofocus en diafragma.',

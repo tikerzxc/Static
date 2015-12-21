@@ -38,7 +38,6 @@
                     scope.hide(elem);
                 }
 
-                // -- Show next slider image
                 scope.next = function(sliderIndex) {
                     scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
 
@@ -74,20 +73,16 @@
 
                 };
 
-                // -- Show previous slider image
                 scope.prev = function(sliderIndex) {
                     scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = 0;
 
                     scope.firstSlider = scope.currentIndex === 0 && sliderIndex === 0 ? true : false;
                     scope.lastSlider = (sliderIndex + 1) === scope.data.length && ( scope.currentIndex + 1 === scope.images.length ) ? true : false;
 
-                    if(scope.imagesViewed.length === 0) {
+                    if( scope.imagesViewed.length === 0 ) {
                         scope.$emit('activatePrevSlider', sliderIndex);
                         scope.$emit('showSlider', scope.sliderIndex - 1);
                     }
-
-                    scope.imagesViewed.pop();
-
                 };
 
                 // -- Activate slider with images
@@ -99,6 +94,25 @@
 
                         $timeout(function() {
                             scope.currentIndex = parseInt(storedItem.sliderImageIndex) || 0;
+
+                            if( (scope.currentIndex > 0) && (scope.currentIndex + 1 !== scope.images.length)) {
+                                scope.firstSlider = false;
+                                scope.lastSlider = false;
+                            }
+
+                            else if(scope.currentIndex === 0) {
+                                scope.firstSlider = true;
+                                scope.lastSlider = false;
+                            }
+
+                            else if(scope.currentIndex + 1 === scope.images.length) {
+                                scope.firstSlider = false;
+                                scope.lastSlider = true;
+                            }
+
+                            for(var i = 0; i < scope.currentIndex; i++) {
+                                scope.imagesViewed.push({viewed: true});
+                            }
                         });
 
                         if( scope.currentIndex + 1 === scope.images.length) {
@@ -112,7 +126,7 @@
 
                     setTimeout(function() {
                         $window.localStorage.clear();
-                    }, 500);
+                    }, 100);
 
                 };
 

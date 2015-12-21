@@ -343,7 +343,7 @@
                 scope.passedAnswersResult = [];
                 scope.defaultOption = null;
 
-                scope.saveAnswer = function(index, validAnswer, groupId, itemId) {
+                scope.saveAnswer = function(index, validAnswer, groupId) {
                     var _currGroup = groupId[0][0];
 
                     if(index === validAnswer[0][0]) {
@@ -359,37 +359,7 @@
                     }
 
                     scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
-                    scope.savedOptions = _.uniq(scope.savedOptions);
                 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                 // -- Activate selected slide when clicking on 'activate-slider' links

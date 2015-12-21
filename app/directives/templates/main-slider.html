@@ -12,26 +12,6 @@
                     <!-- begin: options-wrap -->
                     <div class="options-wrap" ng-if="item.options">
                         <ul>
-                            <!--<li ng-repeat="option in item.options" class="option-item-wrap" ng-if="viewTestResults">-->
-                                <!--<span class="success" ng-if="$index === option.validAnswer">√</span>-->
-                                <!--<label class="disabled">-->
-                                     <!--<input name="Answer[[option.group]]"-->
-                                            <!--type="radio"-->
-                                            <!--value="[[$index]]">-->
-                                     <!--<span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>-->
-                                 <!--</label>-->
-                            <!--</li>-->
-
-                            <!--<li ng-repeat="option in item.options" class="option-item-wrap" ng-if="!viewTestResults">-->
-                                <!--<label ng-click="saveAnswer($index, [[option.validAnswer]], [[option.group]], [[option.id]])">-->
-                                    <!--<input name="Answer[[option.group]]"-->
-                                           <!--type="radio"-->
-                                           <!--value="[[$index]]">-->
-                                    <!--<span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>-->
-                                <!--</label>-->
-                            <!--</li>-->
-
-
                             <li ng-repeat="option in item.options" class="option-item-wrap">
                                 <span class="success" ng-if="$index === option.validAnswer && viewTestResults">√</span>
 
@@ -42,14 +22,17 @@
                                     <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
                                 </label>
                             </li>
-
                         </ul>
                     </div>
                     <!-- end: options-wrap -->
                 </div>
 
-                <div class="img-wrap" ng-if="item.type">
+                <div class="img-wrap" ng-if="item.type && !viewTestResults">
                     <img ng-src="images/[[item.src]]" />
+                </div>
+
+                <div class="img-wrap" ng-if="item.type && viewTestResults">
+                    <span ng-bind-html="'[[item.feedback]]' | htmlize"></span>
                 </div>
             </div>
             <!-- end: inner-image-wrap -->
@@ -82,9 +65,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="img-wrap-desc" ng-if="wrapImgVisible">
+
+                <div class="img-wrap-desc" ng-if="wrapImgVisible && !viewTestResults">
                     <img ng-src="images/[[item.src]]" />
                 </div>
+
                 <div class="img-text-desc" ng-if="!wrapImgVisible">
                     <div class="theory-desc"></div>
                 </div>

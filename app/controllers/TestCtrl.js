@@ -13,7 +13,8 @@
                     shortDesc : '<b>Kennistoets</b>',
                     fullDesc: '<br><br>Deze toets biedt je de mogelijkheid om zicht te krijgen op je kennis van de basis beginselen van de camera instellingen. De toets bestaat uit 5 vragen. <br><br>Kies het antwoord dat volgens jou het dichtst in de buurt van de waarheid ligt. Na de laatste vraag zie jej je score. Ook kun je feedback op de gegeven antwoord opvragen.<br><br>Neem de feedback goed in je op en blader vervolgens door naar de volgende pagina door op het pijltje midden onder te klikken. <br><br>Dit onderdeel duurt ongeveer 2 minuten.<br>Klik op de bladerknop onderaan de pagina om met de toets te beginnen.<br><br><span class="accent"><b>Veel succes!</b></span>',
                     type: 'image',
-                    src:'questionsmarks_00.jpg'
+                    src:'questionsmarks_00.jpg',
+                    options: true
                 },
                 {
                     shortDesc : '<b>Vraag 1</b>',
@@ -21,9 +22,21 @@
                     type: 'image',
                     src:'questionsmarks_00.jpg',
                     options: [
-                        { titleDesc: '<b>A:</b> De lichtgevoeligheid van de sensor in de camera.', id: 'Answer1'},
-                        { titleDesc: '<b>B:</b> Een opening in de lichtbaan van een lens.', id: 'Answer2'},
-                        { titleDesc: '<b>C:</b> De duur van de belichting.', id: 'Answer3'}
+                        {
+                            titleDesc: '<b>A:</b> De lichtgevoeligheid van de sensor in de camera.',
+                            group: 1,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>B:</b> Een opening in de lichtbaan van een lens.',
+                            group: 1,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>C:</b> De duur van de belichting.',
+                            group: 1,
+                            validAnswer: 1
+                        }
                     ]
                 },
                 {
@@ -32,9 +45,21 @@
                     type: 'image',
                     src:'questionsmarks_00.jpg',
                     options: [
-                        { titleDesc: '<b>A:</b> ISO.', id: 'Answer4'},
-                        { titleDesc: '<b>B:</b> Diafragma en sluitertijd.', id: 'Answer5'},
-                        { titleDesc: '<b>C:</b> Diafragma, sluitertijd en ISO.', id: 'Answer6'}
+                        {
+                            titleDesc: '<b>A:</b> ISO.',
+                            group: 2,
+                            validAnswer: 2
+                        },
+                        {
+                            titleDesc: '<b>B:</b> Diafragma en sluitertijd.',
+                            group: 2,
+                            validAnswer: 2
+                        },
+                        {
+                            titleDesc: '<b>C:</b> Diafragma, sluitertijd en ISO.',
+                            group: 2,
+                            validAnswer: 2
+                        }
                     ]
                 },
                 {
@@ -43,9 +68,21 @@
                     type: 'image',
                     src:'questionsmarks_00.jpg',
                     options: [
-                        { titleDesc: '<b>A:</b> ISO.', id: 'Answer7'},
-                        { titleDesc: '<b>B:</b> Diafragma en sluitertijd.', id: 'Answer8'},
-                        { titleDesc: '<b>C:</b> Diafragma, sluitertijd en ISO.', id: 'Answer9'}
+                        {
+                            titleDesc: '<b>A:</b> Diafragma, sluitertijd en stop.',
+                            group: 3,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>B:</b> Diafragma en ISO.',
+                            group: 3,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>C:</b> Diafragma en sluitertijd.',
+                            group: 3,
+                            validAnswer: 1
+                        }
                     ]
                 },
                 {
@@ -54,9 +91,21 @@
                     type: 'image',
                     src:'questionsmarks_00.jpg',
                     options: [
-                        { titleDesc: '<b>A:</b> Diafragma, sluitertijd en stop.', id: 'Answer10'},
-                        { titleDesc: '<b>B:</b> Av en Tv', id: 'Answer11'},
-                        { titleDesc: '<b>C:</b> M.', id: 'Answer12'}
+                        {
+                            titleDesc: '<b>A:</b>  P en M.',
+                            group: 4,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>B:</b> Av en Tv',
+                            group: 4,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>C:</b> M.',
+                            group: 4,
+                            validAnswer: 1
+                        }
                     ]
                 },
                 {
@@ -65,14 +114,26 @@
                     type: 'image',
                     src:'questionsmarks_00.jpg',
                     options: [
-                        { titleDesc: '<b>A:</b>  Autofocus en diafragma.', id: 'Answer13'},
-                        { titleDesc: '<b>B:</b>  Sluitertijd en autofocus.', id: 'Answer14'},
-                        { titleDesc: '<b>C:</b>  Pannen en autofocus.', id: 'Answer15'}
+                        {
+                            titleDesc: '<b>A:</b>  Autofocus en diafragma.',
+                            group: 5,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>B:</b>  Sluitertijd en autofocus.',
+                            group: 5,
+                            validAnswer: 1
+                        },
+                        {
+                            titleDesc: '<b>C:</b>  Pannen en autofocus.',
+                            group: 5,
+                            validAnswer: 1
+                        }
                     ]
                 },
                 {
-                    shortDesc : '<b>Klaar!</b>',
-                    fullDesc: 'Dit is het einde van de pretest.<br>Score per onderwerp:<br><table border="0" cellspacing="0" cellpadding="0" class="field_text_standard" style="position:static"><tbody><tr class="mouse_over" onclick="StartFeedback(1)"><td><a class="text-link-result">Alle vragen:&nbsp;</a></td><td>&nbsp;20%</td></tr><tr><td>&nbsp;</td></tr><tr><td>Totaalscore:&nbsp;</td><td>&nbsp;20%</td></tr></tbody></table><br><br>Je hebt 1 van de 5 vragen goed beantwoord.<br>Raadpleeg de <a id="feedback" class="text-link-result">feedback</a> om je antwoorden te controleren.<br><br>Valt de score je tegen?<br>Doorloop de onderwerpen dan nog een keer.<br><br>Veel succes en plezier met het fotograferen!',
+                    shortDesc : '<b class="test-results-heading">Klaar!</b>',
+                    fullDesc: 'Dit is het einde van de pretest.<br>Score per onderwerp:<br><table border="0" cellspacing="0" cellpadding="0" class="field_text_standard" style="position:static"><tbody><tr><td><a class="action-btn show-results">Alle vragen:&nbsp;</a></td><td class="test-results"></td></tr><tr><td>&nbsp;</td></tr><tr><td>Totaalscore:&nbsp;</td><td class="total-score"></td></tr></tbody></table><br><br>Je hebt 1 van de 5 vragen goed beantwoord.<br>Raadpleeg de <a id="feedback" class="text-link-result">feedback</a> om je antwoorden te controleren.<br><br>Valt de score je tegen?<br>Doorloop de onderwerpen dan nog een keer.<br><br>Veel succes en plezier met het fotograferen!',
                     type: 'image',
                     src:'exclamationmark.jpg'
                 }

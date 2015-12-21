@@ -16,6 +16,20 @@ angular.module('starter')
             concatItems: function(dataArr, itemArr) {
                 dataArr.push(itemArr);
                 return dataArr;
+            },
+            countTestAnswers: function(dataArr) {
+                var _currTestAnswersLength = 0;
+
+                _.each(dataArr, function(item) {
+
+                    _.each(item, function(obj) {
+                        if(_.keys(obj).indexOf('options') !== -1) {
+                            _currTestAnswersLength++;
+                        }
+                    });
+                });
+
+                return _currTestAnswersLength;
             }
         }
 

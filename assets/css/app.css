@@ -190,7 +190,7 @@ body {
     color: #009697;
 }
 
-.content-wrapper .slider-wrapper .activate-slider {
+.content-wrapper .slider-wrapper .activate-slider, .content-wrapper .slider-wrapper .action-btn {
     color: #009697;
     cursor: pointer;
 }
@@ -434,16 +434,22 @@ ol.panel-list li {
 
 .slider-wrapper .options-wrap .option-item-wrap {
     margin-bottom: 10px;
+    list-style-type: none;
 }
 
 .slider-wrapper .options-wrap label {
     display: block;
     cursor: pointer;
+    white-space: nowrap;
 }
 
-.options-wrap .option-item-wrap span {
+.slider-wrapper .options-wrap label.disabled {
+    margin-left: 13px;
+}
+
+.options-wrap .option-item-wrap label span {
     position: relative;
-    top: 1px;
+    top: -2px;
     left: 2px;
 }
 
@@ -521,6 +527,21 @@ ol.panel-list li {
     font-family: Verdana;
     text-decoration: underline;
     cursor: pointer;
+}
+
+/*** Styling 'tests' page ***/
+.slider-wrapper .test-results-heading {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.slider-wrapper .success {
+    float: left;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #008000;
+    margin-right: 3px;
 }
 
 /*** Slider styles ***/

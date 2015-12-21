@@ -57,6 +57,10 @@
             $scope.$broadcast('showTestPageResults');
         });
 
+        $rootScope.$on('reset', function (event) {
+            $scope.$broadcast('resetCurrSlider');
+        });
+
         $rootScope.$on('showSlider', function (event, sliderIndex) {
             $scope.$broadcast('activateSliderContainer', sliderIndex);
         });

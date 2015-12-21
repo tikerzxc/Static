@@ -12,15 +12,31 @@
                     <!-- begin: options-wrap -->
                     <div class="options-wrap" ng-if="item.options">
                         <ul>
+                            <!-- <li ng-repeat="option in item.options" class="option-item-wrap" ng-if="testResultsExist">
+                                <span class="success" ng-if="$index === option.validAnswer">√</span>
+                                <label class="disabled">
+                                     <input name="Answer[[option.group]]"
+                                            type="radio"
+                                            ng-model="option.validAnswer"
+                                            ng-change="saveAnswer($index, [[option.validAnswer]])"
+                                            ng-disabled="true"
+                                            value="[[$index]]">
+                                     <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
+                                 </label>
+                            </li> -->
+
                             <li ng-repeat="option in item.options" class="option-item-wrap">
-                                <label for="[[option.id]]">
-                                    <input type="radio" name="Answer" id="[[option.id]]" value="[[option.id]]" />
+                                <label ng-click="saveAnswer($index, [[option.validAnswer]], [[option.group]])">
+                                    <input name="Answer[[option.group]]"
+                                           type="radio"
+                                           ng-model="defaultOption"
+                                           value="[[$index]]">
                                     <span ng-bind-html="'[[option.titleDesc]]' | htmlize"></span>
                                 </label>
                             </li>
                         </ul>
                     </div>
-                    <!-- begin: options-wrap -->
+                    <!-- end: options-wrap -->
                 </div>
 
                 <div class="img-wrap" ng-if="item.type">

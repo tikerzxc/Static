@@ -2,9 +2,9 @@
 
 (function () {
 
-    mainSlider.inject = ['$timeout', '$compile', '$window', '$sce'];
+    mainSlider.inject = ['$timeout', '$compile', '$window', '$sce', 'getData'];
 
-    function mainSlider($timeout, $compile, $window, $sce) {
+    function mainSlider($timeout, $compile, $window, $sce, getData) {
 
         return {
             restrict: 'E',
@@ -44,8 +44,11 @@
                     scope.firstSlider = scope.currentIndex === 0 && sliderIndex === 0 ? true : false;
                     scope.lastSlider = ( (sliderIndex + 1) === scope.data.length ) && ( scope.currentIndex + 1 === scope.images.length ) ? true : false;
 
-                    if(scope.imagesViewed.length < scope.images.length) {
-                        scope.imagesViewed.push({viewed: true});
+
+                    if( (scope.imagesViewed.length < scope.images.length) && (scope.passedAnswersResult.length === 0) ) {
+                        if (!scope.images[scope.currentIndex].options) {
+                            scope.imagesViewed.push({viewed: true});
+                        }
                     }
 
                     if( (scope.images.length === scope.imagesViewed.length) && !scope.lastSlider) {
@@ -79,10 +82,14 @@
                     scope.firstSlider = scope.currentIndex === 0 && sliderIndex === 0 ? true : false;
                     scope.lastSlider = (sliderIndex + 1) === scope.data.length && ( scope.currentIndex + 1 === scope.images.length ) ? true : false;
 
-                    if( scope.imagesViewed.length === 0 ) {
-                        scope.$emit('activatePrevSlider', sliderIndex);
-                        scope.$emit('showSlider', scope.sliderIndex - 1);
+                    if( (scope.imagesViewed.length === 0) && (scope.passedAnswersResult.length === 0) ) {
+
+                        if(!scope.images[scope.currentIndex].options) {
+                            scope.$emit('activatePrevSlider', sliderIndex);
+                            scope.$emit('showSlider', scope.sliderIndex - 1);
+                        }
                     }
+
                 };
 
                 // -- Activate slider with images
@@ -144,22 +151,6 @@
                     scope.activateSlider();
                 });
 
-                // -- Activate 'results' slide on 'tests' page
-                scope.testResults = false;
-                scope.$on('showTestPageResults', function() {
-                    $timeout(function() {
-                        scope.testResults = true;
-                    });
-                });
-
-                // -- Activate 'results' slide on 'tests' page
-                scope.testResults = false;
-                scope.$on('showTestPageResults', function() {
-                    $timeout(function() {
-                        scope.testResults = true;
-                    });
-                });
-
                 // -- Watch if next slider is activated
                 scope.$on('activateNextSliderImg', function(event, index) {
 
@@ -197,7 +188,6 @@
                         }
 
                     }
-
 
                 });
 
@@ -301,6 +291,103 @@
                     });
 
                 });
+
+                // -- Reset current slider
+                scope.$on('resetCurrSlider', function() {
+
+                    $timeout(function() {
+                        scope.currentIndex = 0;
+                        scope.firstSlider = true;
+                        scope.lastSlider = false;
+                        scope.testResults = false;
+                    });
+                });
+
+                // -- Activate 'results' slide on 'tests' page
+                scope.testResults = false;
+
+                scope.$on('showTestPageResults', function() {
+                    $timeout(function() {
+                        scope.testResults = true;
+                    });
+
+                    scope.testAnswerLength = getData.countTestAnswers(scope.data) - 1;
+                    scope.answersResult = Math.ceil( (scope.passedAnswersResult.length / scope.testAnswerLength) * 100 );
+
+                    // -- Show 'tests' page results ('alle vragen/totalscore')
+                    angular.forEach(angular.element(document.querySelectorAll('.test-results, .total-score')), function(item){
+                        var _currEl = angular.element(item);
+
+                        _currEl.html('&nbsp;' + scope.answersResult + '%');
+                    });
+
+                    //-- Show 'tests' page results when 'alle vragen' btn is clicked
+                    angular.forEach(angular.element(document.querySelectorAll('.show-results')), function(item){
+
+
+                        elem.on('click', function(e) {
+                            var _currEl = angular.element(e.target);
+
+                            if( _currEl.hasClass('show-results')  ) {
+                                scope.$emit('reset');
+                            }
+
+                        });
+                    });
+
+                });
+
+                // -- Save 'test' page results
+                scope.passedAnswersResult = [];
+                scope.defaultOption = null;
+
+                scope.saveAnswer = function(index, validAnswer, groupId) {
+                    var _currGroup = groupId[0][0];
+
+                    if(index === validAnswer[0][0]) {
+                        scope.passedAnswersResult.push(_currGroup);
+                    }
+
+                    else {
+                        var _groupExists = scope.passedAnswersResult.indexOf(_currGroup);
+
+                        if(_groupExists !== -1) {
+                            scope.passedAnswersResult.splice(_groupExists, 1);
+                        }
+                    }
+
+                    scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
+                };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 // -- Activate selected slide when clicking on 'activate-slider' links
                 if( $window.localStorage.getItem('activateSlider') ) {

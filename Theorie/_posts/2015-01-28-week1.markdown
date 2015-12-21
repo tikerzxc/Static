@@ -22,9 +22,9 @@ Onthoud dat je daarom altijd begint met het instellen van 3 belangrijke basisfun
 <br>
 <a class="activate-slider" page-index="2" slider-index="0" slider-image-index="1">het diafragma</a>
 <br>
-<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="6">de sluitertijd</a>
+<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="4">de sluitertijd</a>
 <br>
-<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="8">de ISO-waarde</a>
+<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="6">de ISO-waarde</a>
 
-Voor een goed begrip van deze functies, moet je ook weten wat een ‘<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="10">stop</a>’ is.
+Voor een goed begrip van deze functies, moet je ook weten wat een ‘<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="8">stop</a>’ is.
 We zullen ook dit begrip nader uitleggen.

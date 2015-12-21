@@ -20,11 +20,11 @@ De belichting van de beeldsensor wordt bepaald door de combinatie van:
 
 Onthoud dat je daarom altijd begint met het instellen van 3 belangrijke basisfuncties:
 <br>
-<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="1">het diafragma</a>
+[het diafragma](#){:  class="activate-slider" page-index="2" slider-index="0" slider-image-index="1"}
 <br>
-<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="4">de sluitertijd</a>
+[de sluitertijd](#){:  class="activate-slider" page-index="2" slider-index="0" slider-image-index="4"}
 <br>
-<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="6">de ISO-waarde</a>
+[de ISO-waarde](#){:  class="activate-slider" page-index="2" slider-index="0" slider-image-index="6"}
 
-Voor een goed begrip van deze functies, moet je ook weten wat een ‘<a class="activate-slider" page-index="2" slider-index="0" slider-image-index="8">stop</a>’ is.
+Voor een goed begrip van deze functies, moet je ook weten wat een ‘[stop](#){:  class="activate-slider" page-index="2" slider-index="0" slider-image-index="8"}’ is.
 We zullen ook dit begrip nader uitleggen.

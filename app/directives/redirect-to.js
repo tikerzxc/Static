@@ -24,9 +24,14 @@
                                                          };
 
                                 // -- Save 'activeSlider' elem attrs data and redirect to selected page
-                                elem.on('click', function() {
-                                    $window.localStorage.setItem('activateSlider', JSON.stringify(activateSliderItem) );
-                                    $window.location.href = routesHelper.getRouteByIndex( _currEl.attr('page-index') );
+                                elem.on('click', function(e) {
+                                    e.stopPropagation();
+
+                                    if( angular.element(e.target).hasClass('activate-slider') ) {
+                                        $window.localStorage.setItem('activateSlider', JSON.stringify(activateSliderItem));
+                                        $window.location.href = routesHelper.getRouteByIndex(_currEl.attr('page-index'));
+                                    }
+
                                 });
 
                             });

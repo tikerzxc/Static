@@ -340,7 +340,7 @@
                 });
 
                 // -- Save 'test' page results
-                scope.passedAnswersResult = [];
+                scope.passedAnswersResult = scope.answersClicked = [];
                 scope.defaultOption = null;
 
                 scope.saveAnswer = function(index, validAnswer, groupId) {
@@ -358,9 +358,13 @@
                         }
                     }
 
-                    scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
-                };
+                    if(!scope.viewTestResults) {
+                        scope.answersClicked.push(_currGroup);
+                    }
 
+                    scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
+                    scope.answersClicked = _.uniq(scope.answersClicked);
+                };
 
                 // -- Activate selected slide when clicking on 'activate-slider' links
                 if( $window.localStorage.getItem('activateSlider') ) {

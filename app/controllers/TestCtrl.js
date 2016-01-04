@@ -138,7 +138,7 @@
                 },
                 {
                     shortDesc : '<b class="test-results-heading">Klaar!</b>',
-                    fullDesc: 'Dit is het einde van de pretest.<br>Score per onderwerp:<br><table border="0" cellspacing="0" cellpadding="0" class="field_text_standard" style="position:static"><tbody><tr><td><a class="action-btn show-results">Alle vragen:&nbsp;</a></td><td class="test-results"></td></tr><tr><td>&nbsp;</td></tr><tr><td>Totaalscore:&nbsp;</td><td class="total-score"></td></tr></tbody></table><br><br>Je hebt 1 van de 5 vragen goed beantwoord.<br>Raadpleeg de <a id="feedback" class="text-link-result">feedback</a> om je antwoorden te controleren.<br><br>Valt de score je tegen?<br>Doorloop de onderwerpen dan nog een keer.<br><br>Veel succes en plezier met het fotograferen!',
+                    fullDesc: 'Dit is het einde van de pretest.<br>Score per onderwerp:<br><table border="0" cellspacing="0" cellpadding="0" class="field_text_standard" style="position:static"><tbody><tr><td><a class="action-btn show-results">Alle vragen:&nbsp;</a></td><td class="test-results"></td></tr><tr><td>&nbsp;</td></tr><tr><td>Totaalscore:&nbsp;</td><td class="total-score"></td></tr></tbody></table><br><br>Je hebt 1 van de 5 vragen goed beantwoord.<br>Raadpleeg de <a id="feedback" class="action-btn show-results">feedback</a> om je antwoorden te controleren.<br><br>Valt de score je tegen?<br>Doorloop de onderwerpen dan nog een keer.<br><br>Veel succes en plezier met het fotograferen!',
                     type: 'image',
                     src:'exclamationmark.jpg'
                 }

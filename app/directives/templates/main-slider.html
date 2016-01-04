@@ -32,7 +32,8 @@
                 </div>
 
                 <div class="img-wrap" ng-if="item.type && viewTestResults">
-                    <span ng-bind-html="'[[item.feedback]]' | htmlize"></span>
+                    <span ng-if="answersClicked.indexOf($index) !== -1" ng-bind-html="'[[item.feedback]]' | htmlize"></span>
+                    <img ng-if="answersClicked.indexOf($index) === -1" ng-src="images/[[item.src]]" />
                 </div>
             </div>
             <!-- end: inner-image-wrap -->

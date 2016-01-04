@@ -439,8 +439,13 @@ ol.panel-list li {
 
 .slider-wrapper .options-wrap label {
     display: block;
+    vertical-align: middle;
     cursor: pointer;
     white-space: nowrap;
+}
+
+.slider-wrapper .options-wrap input {
+    vertical-align: middle;
 }
 
 .slider-wrapper .options-wrap label.disabled {
@@ -448,9 +453,7 @@ ol.panel-list li {
 }
 
 .options-wrap .option-item-wrap label span {
-    position: relative;
-    top: 0px;
-    left: 2px;
+    vertical-align: middle;
 }
 
 /*** Styling 'links' page ***/

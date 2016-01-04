@@ -1,0 +1,20 @@
+---
+layout: null
+shortDesc: "<b>Kennistoets</b><br><br>"
+type: "image"
+src: "questionsmarks_00.jpg"
+options: true
+tags: tests_answers
+permalink: home
+---
+
+Deze toets biedt je de mogelijkheid om zicht te krijgen op je kennis van de basis beginselen van de camera instellingen. De toets bestaat uit 5 vragen. 
+
+Kies het antwoord dat volgens jou het dichtst in de buurt van de waarheid ligt. Na de laatste vraag zie jej je score. Ook kun je feedback op de gegeven antwoord opvragen.
+
+Neem de feedback goed in je op en blader vervolgens door naar de volgende pagina door op het pijltje midden onder te klikken. 
+
+Dit onderdeel duurt ongeveer 2 minuten.
+Klik op de bladerknop onderaan de pagina om met de toets te beginnen.
+
+<span class="accent"><b>Veel succes!</b></span>

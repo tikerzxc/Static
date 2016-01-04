@@ -1,0 +1,28 @@
+---
+layout: null
+shortDesc: "<b>Vraag 2</b><br><br>"
+type: "image"
+src: "questionsmarks_00.jpg"
+feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br><p>Met het begrip stop kun je een wijziging in diafragma, sluitertijd en ISO-waarde uitdrukken en hiermee een wijziging aangeven van de hoeveelheid licht die op de sensor valt.</p><br></div></div></div>'
+options: [
+            {
+                'titleDesc': '<b>A:</b> ISO.',
+                'group': 2,
+                'validAnswer': 2
+            },
+            {
+                'titleDesc': '<b>B:</b> Diafragma en sluitertijd.',
+                'group': 2,
+                'validAnswer': 2
+            },
+            {
+                'titleDesc': '<b>C:</b> Diafragma, sluitertijd en ISO.',
+                'group': 2,
+                'validAnswer': 2
+            }
+         ]
+tags: tests_answers
+permalink: home
+---
+
+Met het begrip 'stop' kun je een wijziging aangeven van:

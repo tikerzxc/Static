@@ -1,0 +1,28 @@
+---
+layout: null
+shortDesc: "<b>Vraag 5</b><br><br>"
+type: "image"
+src: "questionsmarks_00.jpg"
+feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"> <div id="FBField" class="field_text_feedback fbfield"><br><p>B is het juiste antwoord.<br><br>Snelheid en tijd zijn van belang bij bewegende onderwerpen dus moet je de sluitertijd <br>instellen. Wil je het bewegende onderwerp ook scherp in beeld krijgen, dan moet je de<br>autofocus instellen.</p><br></div></div></div>'
+options: [
+            {
+                titleDesc: '<b>A:</b>  Autofocus en diafragma.',
+                group: 5,
+                validAnswer: 1
+            },
+            {
+                titleDesc: '<b>B:</b>  Sluitertijd en autofocus.',
+                group: 5,
+                validAnswer: 1
+            },
+            {
+                titleDesc: '<b>C:</b>  Pannen en autofocus.',
+                group: 5,
+                validAnswer: 1
+            }
+         ]
+tags: tests_answers
+permalink: home
+---
+
+Welke functies op je camera stel je in voor het scherp in beeld brengen van bewegende onderwerpen?

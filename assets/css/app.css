@@ -456,6 +456,14 @@ ol.panel-list li {
     vertical-align: middle;
 }
 
+@-moz-document url-prefix() {
+    .options-wrap .option-item-wrap label span {
+        display: inline-block;
+        margin-top: 4px;
+        vertical-align: middle;
+    }
+}
+
 /*** Styling 'links' page ***/
 .links-page-wrapper .header-wrapper {
     width: 616px;

@@ -346,6 +346,10 @@
                 scope.saveAnswer = function(index, validAnswer, groupId) {
                     var _currGroup = groupId[0][0];
 
+                    if(scope.viewTestResults) {
+                        return;
+                    }
+
                     if(index === validAnswer[0][0]) {
                         scope.passedAnswersResult.push(_currGroup);
                     }
@@ -358,9 +362,7 @@
                         }
                     }
 
-                    if(!scope.viewTestResults) {
-                        scope.answersClicked.push(_currGroup);
-                    }
+                    scope.answersClicked.push(_currGroup);
 
                     scope.passedAnswersResult = _.uniq(scope.passedAnswersResult);
                     scope.answersClicked = _.uniq(scope.answersClicked);

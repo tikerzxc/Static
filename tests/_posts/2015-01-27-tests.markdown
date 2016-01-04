@@ -1,0 +1,28 @@
+---
+layout: null
+shortDesc: "<b>Vraag 3</b><br><br>"
+type: "image"
+src: "questionsmarks_00.jpg"
+feedback: '<div class="inside_border_graphic BGRight BGWidth50" id="GraphicFrame"><div id="FBBackdrop" class="feedback50" style="visibility: inherit;"><div id="FBField" class="field_text_feedback fbfield"><br>C is het juiste antwoord.<br><br><p>Met het instellen van het diafragma en de sluitertijd kun je bepaalde onderwerpen de aandacht laten trekken in je foto en daarmee bepalen naar welk deel van de foto de aandacht van de kijker het eerst wordt getrokken.</p><br> </div></div></div>'
+options: [
+            {
+                'titleDesc': '<b>A:</b> Diafragma, sluitertijd en stop.',
+                'group': 3,
+                'validAnswer': 1
+            },
+            {
+                'titleDesc': '<b>B:</b> Diafragma en ISO.',
+                'group': 3,
+                'validAnswer': 1
+            },
+            {
+                'titleDesc': '<b>C:</b> Diafragma en sluitertijd.',
+                'group': 3,
+                'validAnswer': 1
+            }
+         ]
+tags: tests_answers
+permalink: home
+---
+
+Met welke basisfuncties van een camera kun je ook een direct visueel effect creëren?

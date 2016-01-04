@@ -1,0 +1,18 @@
+---
+---
+[
+  [
+    {% for item in site.tags.tests_answers %}
+
+    {
+      "shortDesc" : {{ item.shortDesc | jsonify }},
+      "fullDesc" : {{ item.content | jsonify }},
+      "type" : {{ item.type | jsonify }},
+      "src" : {{ item.src | jsonify }},
+      "feedback" : {{ item.feedback | jsonify }},
+      "options" : {{ item.options | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+
+    {% endfor %}
+  ]
+]

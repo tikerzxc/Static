@@ -1,0 +1,36 @@
+---
+layout: null
+shortDesc: "<b>Klaar!</b><br><br>"
+type: "image"
+src: "exclamationmark.jpg"
+tags: tests_answers
+permalink: home
+---
+
+Dit is het einde van de pretest.
+Score per onderwerp:
+<table border="0" cellspacing="0" cellpadding="0" class="field_text_standard" style="position:static">
+    <tbody>
+        <tr>
+            <td>
+                <a class="action-btn show-results">Alle vragen:&nbsp;</a></td>
+            <td class="test-results"></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Totaalscore:&nbsp;</td>
+            <td class="total-score"></td>
+        </tr>
+    </tbody>
+</table>
+
+Je hebt 1 van de 5 vragen goed beantwoord.
+
+Raadpleeg de <a id="feedback" class="action-btn show-results">feedback</a> om je antwoorden te controleren.
+
+Valt de score je tegen?
+Doorloop de onderwerpen dan nog een keer.
+
+Veel succes en plezier met het fotograferen!

@@ -107,12 +107,12 @@
                                 scope.lastSlider = false;
                             }
 
-                            else if(scope.currentIndex === 0) {
+                            else if(scope.currentIndex === 0 && scope.sliderIndex + 1 === scope.data.length) {
                                 scope.firstSlider = true;
                                 scope.lastSlider = false;
                             }
 
-                            else if(scope.currentIndex + 1 === scope.images.length) {
+                            else if(scope.currentIndex + 1 === scope.data.length) {
                                 scope.firstSlider = false;
                                 scope.lastSlider = true;
                             }

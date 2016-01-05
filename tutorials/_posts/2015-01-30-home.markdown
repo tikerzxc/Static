@@ -6,17 +6,13 @@ permalink: home
 tags: tutorials-home
 ---
 
-In het volgende scherm vind je links naar video's bij de 
-onderwerpen basis begrippen (Diafragma, sluitertijd & ISO), de 
-juiste belichting en beweging fotograferen.
+In het volgende scherm vind je links naar video's bij de onderwerpen basis begrippen (Diafragma, sluitertijd & ISO), de juiste belichting en beweging fotograferen. ..
 
 Per onderwerp zie je links naar twee video's:
 
-* een instructievideo die leert over welke knoppen op je 
-camera je kunt gebruiken
-* een toepassingsvideo die laat zien je het geleerde in de 
-praktijk kunt toepassen. 
+* een instructievideo die leert over welke knoppen op je camera je kunt gebruiken
+* een toepassingsvideo die laat zien je het geleerde in de praktijk kunt toepassen.
 
 
-Klik op <span class="accent">Verder</span> om naar het eerste onderwerp te gaan of klik op 
-een van de opties in de menubalk hierboven.
+Klik op Verder
+{: .accent} om naar het eerste onderwerp te gaan of klik op een van de opties in de menubalk hierboven.

@@ -11,8 +11,7 @@ tags: links
 
 * [Canon Nederland](http://www.canon.nl/){:target="_blank"}
 * [De Nederlandse Fotovakschool](http://fotovakschool.nl/home){:target="_blank"}
-* [Craft & Vision](http://craftandvision.com/){:target="_blank"}
-
+* [EOSzine](http://www.eoszine.nl/){:target="_blank"}
 
 ##### Articles
 
@@ -21,4 +20,4 @@ tags: links
 ##### Boeken
 
 * [Scott Kelbys digitale fotografie boek](http://www.bol.com/nl/p/scott-kelbys-digitale-fotografie-boek/9200000010833580/){:target="_blank"}
-* [Over fotografie - Susan Sntag](http://www.bol.com/nl/p/over-fotografie/1001004004808010/){:target="_blank"}
+* [Over fotografie - Susan Sontag](http://www.bol.com/nl/p/over-fotografie/1001004004808010/){:target="_blank"}

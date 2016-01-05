@@ -9,8 +9,8 @@ tags: week3
 
 **Sluitertijd**
 
-Voor het fotograferen van een bewegend onderwerp stel je het programmakeuzewiel in op Tv. In de Tv-stand kun je een bewegend onderwerp op 3 manieren fotograferen met elk een ander visueel effect. Je doet dat door te variëren met de sluitertijd en camerabeweging. Je kunt de volgende visuele effecten creëren:
+Voor het fotograferen van een bewegend onderwerp stel je het programmakeuzewiel in op Tv. In de Tv-stand kun je een bewegend onderwerp op 3 manieren fotograferen met elk een ander visueel effect. Je doet dat door te vari&euml;ren met de sluitertijd en camerabeweging. Je kunt de volgende visuele effecten cre&euml;ren:
 
-[Beweging bevriezen]()<br>
-[Beweging vervagen]()<br>
-[Pannen]()
+[Beweging bevriezen](){: .cc-active}
+[Beweging vervagen](){: .cc-active}
+[Pannen](){: .cc-active}

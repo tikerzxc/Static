@@ -9,9 +9,8 @@ tags: opdrachten-inleiding
 
 In dit onderdeel ga je zelf aan de slag. Je gaat 4 opdrachten 
 uitvoeren. Ze hebben betrekking op wat je in deze module hebt 
-kunnen zien en lezen.
-Bij elke opdracht krijg je een
-Bij elke opdracht krijg je een paaraanwijzingen.
+kunnen zien en lezen. 
+Bij elke opdracht krijg je een paar aanwijzingen.
  
 Als je klaar bent met de 4 opdrachten maak je een selectie van 
 de beste foto bij elke opdracht. Sla deze op als jpg en geef deze 

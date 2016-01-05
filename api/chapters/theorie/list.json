@@ -34,6 +34,16 @@
       "src"  : {{ week3.src | jsonify }}
       } {% unless forloop.last %},{% endunless %}
     {% endfor %}
+  ],
+  [
+    {% for week4 in site.tags.week4 %}
+      {
+      "shortDesc"    : {{ week4.title | jsonify }},
+      "fullDesc"  : {{ week4.content | jsonify }},
+      "type"  : {{ week4.type | jsonify }},
+      "src"  : {{ week4.src | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endfor %}
   ]
 
 ]

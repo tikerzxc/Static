@@ -14,7 +14,7 @@ van 1 of meer seconden. Om cameraonscherpte te voorkomen
 moet je de camera heel stil houden of ergens opzetten. Mooier is 
 als je een statief kunt gebruiken.
 
-Je stelt de camera in op ***S*** of ***Tv*** ***,*** de sluitertijden-
+Je stelt de camera in op ***Tv*** ***,*** de sluitertijden-
 voorkeurfunctie. Je kiest een lange sluitertijd. De camera zal zelf 
 voor het juiste diafragmagetal zorgen. Misschien moet je de iso-
 waarde nog wat verlagen. De sensor is dan minder gevoelig, 

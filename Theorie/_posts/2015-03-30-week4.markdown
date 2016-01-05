@@ -1,0 +1,10 @@
+---
+layout: default
+title: Changed title
+type: image
+src: surfboardklein.jpg
+permalink: home
+tags: week4
+---
+
+this is the second page

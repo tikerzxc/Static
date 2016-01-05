@@ -1,0 +1,23 @@
+---
+layout: default
+title: Praktijkdag
+type: image
+src: Bleu_Angels.jpg
+permalink: home
+tags: week4
+---
+
+De vierde dag is een praktijk-dag op school.
+Wat gaan we doen?
+
+1. Korte samenvatting van de behandelde onderwerpen (als warming-up)
+2. Reflectie op door de docent geselecteerde opdrachten die zijn ingeleverd.
+3. Ruimte voor eventuele vragen.
+4. En vooral gaan we samen aan de slag en brengen het geleerde in de praktijk.
+
+   * Oefenen met diafragma en sluitertijd waaronder “Panning”.
+   * Samen werken in de portretstudio (met plastische en&nbsp; vlakke verlichting).
+   * Afhankelijk van de weersomstandigheden gaan we ook buiten fotograferen.
+
+
+&nbsp;

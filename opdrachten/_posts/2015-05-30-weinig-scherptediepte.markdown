@@ -13,6 +13,6 @@ achtergrond wordt vaag weergegeven. Dat doe je door een klein
 diafragmagetal te kiezen, bijvoorbeeld *f2.8*. Als je binnen
 fotografeert kies dan eerst iso 800. Maak je de foto buiten dan 
 kun je iso 200 of misschien iso 100 gebruiken. Kies voor 
-diafragmavoorkeur-functie  (***A*** of ***Av***), zodat je zelf het
+diafragmavoorkeur-functie  (***A***), zodat je zelf het
 diafragmagetal bepaalt. De camera zorgt dan voor de goede 
 sluitertijd.
